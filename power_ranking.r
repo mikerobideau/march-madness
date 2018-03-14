@@ -1,24 +1,20 @@
 #Data
-setwd('~/Code/march-madness/exports/2018')
+setwd('/Users/mikerobideau/Projects/march-madness/exports/2018')
 standing <- read.csv('ncaa_d1_basketball_standing.csv', header=TRUE, stringsAsFactors=FALSE)
-score <- read.csv('ncaa_d1_basketball_score.csv', header=TRUE, stringsAsFactors=FALSE) 
-bracket <- read.csv('ncaa_d1_backetball_bracket.csv', header=TRUE, stringsAsFactors=FALSE)
+scoreTmp <- read.csv('ncaa_d1_basketball_score.csv', header=TRUE, stringsAsFactors=FALSE) 
+bracket <- read.csv('ncaa_d1_basketball_bracket.csv', header=TRUE, stringsAsFactors=FALSE)
+
+score2 <- data.frame(
+  year=scoreTmp$year,
+  team1=scoreTmp$team2,
+  team1_score=scoreTmp$team2_score,
+  team2=scoreTmp$team1,
+  team2_score=scoreTmp$team1_score
+)
+score <- rbind(score2, scoreTmp)
 
 #We need a "%!in%" operation for later on
 "%!in%" <- function(x,table) match(x,table, nomatch = 0) == 0
-
-#Duplicates the dataset with team 1 and team 2 flipped, then rbinds to original.  Team 2 always mean "opponent"
-mirror <- function(score) {
-  mirror <- data.frame(
-    record_id=score$record_id,
-    year=score$year,
-    team1=score$team2,
-    team1_score=score$team2_score,
-    team2=score$team1,
-    team2_score=score$team1_score
-  )
-  return(rbind(mirror, score))
-}
 
 #A team's conference
 conference <- function(t) {
