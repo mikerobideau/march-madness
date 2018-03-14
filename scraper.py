@@ -11,16 +11,18 @@ class ncaa_dot_com_scraper():
         self.connect()
         self.base = 'http://www.ncaa.com/scoreboard/basketball-men/d1/'
         self.standings_page  = 'http://www.ncaa.com/standings/basketball-men/d1'
+        self.bracket_page = 'https://www.ncaa.com/interactive-bracket/basketball-men/d1'
         self.insert_count = 0
         self.inserts_per_commit = 1000
         self.dates = self.get_dates()
 
     #---kickoff scraper---
     def scrape(self):
-        print 'Starting scraper'
+        #print 'Starting scraper'
         #self.scrape_scores()
-        self.scrape_standings()
-        print 'Finished scraping'
+        #self.scrape_standings()
+        self.scrape_bracket()
+        #print 'Finished scraping'
 
     #---scrape scores
     def scrape_scores(self):
@@ -76,10 +78,6 @@ class ncaa_dot_com_scraper():
         
         for conference_div in conference_divs:
             conf_name = conference_div.find('div', {'class', 'ncaa-standings-conference-name'}).text
-            #print '---'
-            #print conf_name
-            #print '---'
-            #conference standings
             standings_table = conference_div.find('table', {'class': 'ncaa-standing-conference-table'})
 
             even_team_rows = standings_table.findAll('tr', {'class': 'even'})
@@ -122,6 +120,41 @@ class ncaa_dot_com_scraper():
             self.db.commit()
             self.insert_count = 0
 
+    def scrape_bracket(self):
+        print 'Scraping NCAA D1 Men\'s Bracket'
+        soup = self.url_to_soup(self.bracket_page)
+
+        #print soup
+        
+        games = soup.findAll('div', {'class': 'game-cell'})
+        #print games
+
+        i = 0
+
+        for game in games:
+            if i < 64:
+                teams = game.findAll('div', {'class': 'team-name'})
+                team1 = teams[0].text
+                team2 = teams[1].text
+                if team1 and team2:
+                    values = [self.year, team1]
+                    self.insert_into_ncaa_d1_basketball_bracket(values)
+                    values = [self.year, team2]
+                    self.insert_into_ncaa_d1_basketball_bracket(values)
+                    i += 2
+
+        self.db.commit() #insert remaining records
+        self.insert_count = 0
+        print 'Finished scraping bracket'    
+
+    def insert_into_ncaa_d1_basketball_bracket(self, values):
+        insert = '''
+                INSERT INTO ncaa_d1_basketball_bracket
+                (year, team)
+                VALUES(%s, %s)
+                '''
+        self.cursor.execute(insert, values)
+
     #---connect to database
     def connect(self):
         self.db = mysql.connector.Connect(
@@ -136,7 +169,7 @@ class ncaa_dot_com_scraper():
     def url_to_soup(self, url):
         r = requests.get(url)
         data = r.text
-        return BeautifulSoup(data)
+        return BeautifulSoup(data, 'html.parser')
 
     #---get dates
     def get_dates(self):

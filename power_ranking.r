@@ -1,8 +1,8 @@
 #Data
-setwd('/Users/mikerobideau/Documents/Computer Science/Projects/Sports Analytics/Basketball/March Madness/2015')
-bracket <- read.csv('ncaa_bracket_2015.csv', header=TRUE, stringsAsFactors=FALSE)
-standing <- read.csv('ncaa_d1_basketball_standing_2015.csv', header=TRUE, stringsAsFactors=FALSE)
-score <- read.csv('ncaa_d1_basketball_score_2015.csv', header=TRUE, stringsAsFactors=FALSE) 
+setwd('~/Code/march-madness/exports/2018')
+standing <- read.csv('ncaa_d1_basketball_standing.csv', header=TRUE, stringsAsFactors=FALSE)
+score <- read.csv('ncaa_d1_basketball_score.csv', header=TRUE, stringsAsFactors=FALSE) 
+bracket <- read.csv('ncaa_d1_backetball_bracket.csv', header=TRUE, stringsAsFactors=FALSE)
 
 #We need a "%!in%" operation for later on
 "%!in%" <- function(x,table) match(x,table, nomatch = 0) == 0
@@ -132,7 +132,7 @@ run <- function() {
   
   adjusted <- iterAdjust(1)
   
-  write.csv(adjusted, 'ncaa_2015_diffs.csv')
+  write.csv(adjusted, 'power_ranking.csv')
 }
 
 run()
