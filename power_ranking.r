@@ -96,8 +96,10 @@ getAllSpread <- function() {
 iterAdjust <- function(iterations) {
   for(i in 0:iterations){
     if(i==0) {
+      print('iteration 1')
       allSpread <- getAllSpread() #for first iteration, use approximated spread
     } else {
+      print(i+1)
       allSpread <- getAllMedianAdjustedDiff() #for all other iterations, spread is median scoring differential from previous iteration
     }
   
@@ -121,14 +123,22 @@ iterAdjust <- function(iterations) {
   return(adjusted)
 }
 
-
-#Run script
-run <- function() {
-  score <- mirror(score)
+get_tiebreaker_score <- function(team1, team2) {
+  t1 = score[score$team1==team1, ]
+  t2 = score[score$team1==team2, ]
   
-  adjusted <- iterAdjust(1)
+  t1_score = (mean(t1$team1_score) + mean(t2$team2_score)) / 2
+  t2_score = (mean(t2$team1_score) + mean(t1$team2_score)) / 2
   
-  write.csv(adjusted, 'power_ranking.csv')
+  score = paste(team1, ': ', round(t1_score, 0), ', ', team2, ': ', round(t2_score, 0), sep='')
+  return(score)
 }
 
-run()
+get_tiebreaker_score('Duke', 'Virginia')
+
+#Run script
+adjusted <- iterAdjust(1)
+write.csv(adjusted, 'power_ranking.csv')
+
+
+
