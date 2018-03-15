@@ -134,11 +134,8 @@ get_tiebreaker_score <- function(team1, team2) {
   return(score)
 }
 
-get_tiebreaker_score('Duke', 'Virginia')
+get_tiebreaker_score('Duke', 'Mich. St. ')
 
 #Run script
 adjusted <- iterAdjust(1)
 write.csv(adjusted, 'power_ranking.csv')
-
-
-

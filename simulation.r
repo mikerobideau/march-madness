@@ -81,3 +81,13 @@ for(round in 1:6) {
   print(next_round)
   
 }
+
+path_difficulty <- function (team, opps) {
+  p = 1
+  
+  for(opp in opps) {
+    p = p * simulate(team, opp)
+  }
+    
+  return(p)
+}
