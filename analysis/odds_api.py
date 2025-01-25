@@ -15,7 +15,6 @@ TODAY = datetime.today().strftime('%Y-%m-%d')
 DIR = 'exports/%s/%s/' % (YEAR, TODAY)
 FILE_PATH = os.path.join(DIR, 'odds.json')
 REPORT_FILE_PATH = os.path.join(DIR, 'report.csv')
-SCHOOLS = pandas.read_csv('exports/%s/weights.csv' % (YEAR))['Team'].to_list()
 SCORES = analysis.remove_d2_d3_games(pandas.read_csv('exports/2025/scores_detail.csv'))
 TODAYS_GAMES_FILEPATH = os.path.join(DIR, 'todays_games.csv')
 TODAYS_GAMES = pandas.read_csv(TODAYS_GAMES_FILEPATH)
@@ -87,12 +86,21 @@ def process_outcomes(away, home, book, outcomes):
     df = pandas.DataFrame(outcomes)
     outcome1 = df.iloc[0]
     outcome2 = df.iloc[1]
-    away_team_match = fuzzy.match(away, SCHOOLS)
-    home_team_match = fuzzy.match(home, SCHOOLS)
-    away_team = away_team_match['name']
-    home_team = home_team_match['name']
+
     away_team_odds = outcome1['price'] if outcome1['name'] == away else outcome2['price']
     home_team_odds = outcome1['price'] if outcome1['name'] == home else outcome2['price']
+
+    teams = pandas.read_csv('exports/%s/teams.csv' % (YEAR))
+
+    #need to fuzzy match team names between ncaa.com and odds api
+    #odds api uses full names w/ mascot
+    team_and_nickname = teams['team_and_nickname'].tolist()
+    away_team_match = fuzzy.match(away, team_and_nickname)
+    home_team_match = fuzzy.match(home, team_and_nickname)
+    #then convert back to school name, becuase that's what analysis script uses
+    away_team = teams.loc[teams["team_and_nickname"] == away_team_match['name']].iloc[0]['team']
+    home_team = teams.loc[teams["team_and_nickname"] == home_team_match['name']].iloc[0]['team']
+
     result = analysis.analyze(book, SCORES, away_team, away_team_odds, home_team, home_team_odds, home_team, False)
     return result
 

@@ -22,3 +22,9 @@ CREATE TABLE ncaa_d1_basketball_conference (
 	conference VARCHAR(100),
     PRIMARY KEY (year, team, conference)
 );
+
+CREATE TABLE ncaa_d1_basketball_team (
+	year int,
+	school VARCHAR(255),
+    nickname VARCHAR(255)
+);

@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
-import re
 import mysql.connector
 import pandas
 import os
 from datetime import datetime
+import time
 
 
 '''
@@ -12,8 +12,11 @@ ENTER CURRENT YEAR
 '''
 YEAR = 2025
 TODAY = datetime.today().strftime('%Y-%m-%d')
-DIR = '../analysis/exports/%s/%s/' % (YEAR, TODAY)
-TODAYS_GAMES_FILE_PATH = os.path.join(DIR, 'todays_games.csv')
+TODAY_DIR = '../analysis/exports/%s/%s/' % (YEAR, TODAY)
+YEAR_DIR = '../analysis/exports/%s/' % (YEAR)
+TODAYS_GAMES_FILE_PATH = os.path.join(TODAY_DIR, 'todays_games.csv')
+TEAMS_FILEPATH = os.path.join(YEAR_DIR, 'teams.csv')
+RATE_LIMIT = 1
 
 def main():
     year = YEAR
@@ -28,7 +31,7 @@ class ncaa_dot_com_scraper():
     def __init__(self, year, year_months):
         self.year = year
         self.year_months = year_months
-        #self.connect()
+        self.connect()
         self.domain = 'https://www.ncaa.com'
         self.base = 'http://www.ncaa.com/scoreboard/basketball-men/d1'
         self.rankings_page  = 'https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings'
@@ -39,29 +42,41 @@ class ncaa_dot_com_scraper():
         self.dates = self.get_dates()
 
     def scrape_schools(self):
-        r = requests.get(self.schools_page)
-        soup = BeautifulSoup(r.content, 'html.parser')
-        tbody = soup.find('tbody')
-        rows = tbody.find_all('tr')
-        i = 0
-        for row in rows:
-            links = row.find_all('a')
-            link = links[1] #use second link because first link is a logo and has no text
-            school_url = '%s%s' % (self.domain, link['href'])
-            school = link.text
-            nickname = self.get_nickname(school_url)
-            print('%s %s' % (school, nickname))
-            i += 1
-            if i > 0:
-                return
+        school_index_pages = 23
+        for i in range(school_index_pages):
+            page = i + 1
+            current_schools_page = '%s/%s' % (self.schools_page, page)
+            print('Scraping schools on %s' % (current_schools_page))
+            r = requests.get(current_schools_page)
+            soup = BeautifulSoup(r.content, 'html.parser')
+            tbody = soup.find('tbody')
+            rows = tbody.find_all('tr')
+            i = 0
+            for row in rows:
+                links = row.find_all('a')
+                link = links[1] #use second link because first link is a logo and has no text
+                school_url = '%s%s' % (self.domain, link['href'])
+                print(school_url)
+                school = link.text
+                nickname = self.get_nickname(school_url)
+                if nickname:
+                    values = [YEAR, school, nickname]
+                    print('%s %s' % (school, nickname))
+                    self.insert_team(values)
+                time.sleep(RATE_LIMIT)
+            self.db.commit()
+            print('Finished scraping schools')
 
     def get_nickname(self, url):
-        r = requests.get(url)
-        soup = BeautifulSoup(r.content, 'html.parser')
-        schools_details = soup.find('dl', class_='school-details')
-        dds = schools_details.find_all('dd')
-        nickname = dds[1].text
-        return nickname
+        try:
+            r = requests.get(url)
+            soup = BeautifulSoup(r.content, 'html.parser')
+            schools_details = soup.find('dl', class_='school-details')
+            dds = schools_details.find_all('dd')
+            nickname = dds[1].text
+            return nickname
+        except Exception as e:
+            return None
 
     def download_todays_games(self):
         r = requests.get(self.base)
@@ -235,6 +250,15 @@ class ncaa_dot_com_scraper():
         result = self.cursor.execute(insert, values)
         return result
 
+    def insert_team(self, values):
+        insert = '''
+            INSERT INTO ncaa_d1_basketball_team
+            (year, school, nickname)
+            VALUES(%s, %s, %s)
+            '''
+        result = self.cursor.execute(insert, values)
+        return result
+
     def download_scores(self, year):
         query = '''
             SELECT
@@ -249,6 +273,19 @@ class ncaa_dot_com_scraper():
         self.cursor.execute(query)
         df = pandas.DataFrame(self.cursor)
         df.to_csv('score.csv', header=["year", "team1", "team1_score", "team2", "team2_score"])
+
+    def download_teams(self, year):
+        query = '''
+            SELECT
+                year AS year,
+                scool,
+                nickname
+            FROM ncaa_d1_basketball_team
+            WHERE year = 
+        ''' + str(year)
+        self.cursor.execute(query)
+        df = pandas.DataFrame(self.cursor)
+        df.to_csv(TEAMS_FILEPATH, header=["year", "team", "nickname"])
 
     def update_logo(self, values):
         insert = '''

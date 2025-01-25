@@ -34,12 +34,10 @@ def all_matches(search_str, candidates):
 
 def score(str1, str2):
     token_ratio = fuzz.token_set_ratio(str1, str2)  #Handles reordering & partial matches
-    jaro_score = jaro_winkler_similarity(str1.lower(), str2.lower()) * 100  #Boosts prefix similarity,
-    # which is important here because it's more likely that the first part of the name (e.g., "Kansas") will match than
-    # the second part (e.g., "Jayhawks")
+    #jaro_score = jaro_winkler_similarity(str1.lower(), str2.lower()) * 100  #Boosts prefix similarity,
     phonetic_score = 100 if phonetic_match(str1, str2) else 0  #100 if phonetic encoding matches
-    #return (token_ratio * 0.5) + (phonetic_score * 0.5)
-    return (token_ratio * 0.3) + (jaro_score * 0.5) + (phonetic_score * 0.3)
+    return (token_ratio * 0.7) + (phonetic_score * 0.3)
+    #return (token_ratio * 0.5) + (jaro_score * 0.2) + (phonetic_score * 0.3)
 
 def phonetic_match(str1, str2):
     meta1 = doublemetaphone(str1.lower())
