@@ -1,26 +1,60 @@
 import pandas
+
 from statistics import median
 import math
+import csv
 
-MAX_DEPTH = 5
+YEAR = 2025
+EXPORT_ADJUSTED_DIFFS = True
+MAX_DEPTH = 20
 MIN_GAMES = 10
 MAX_DIFF = 100
-TEAM1 = 'UConn'
-TEAM2 = 'Creighton'
+HOME_COURT_ADVANTAGE = 4
+
+all_adjusted_diffs = [] #this is a global variable that is updated during ranking iterations
 
 def main():
-    all_scores = pandas.read_csv('exports/2025/score.csv')
-    teams = get_teams(all_scores, min_games=MIN_GAMES)
-    scores = all_scores.query('team1 in @teams and team2 in @teams')
+    score = pandas.read_csv('exports/%s/score.csv' % (YEAR))
+    weights = get_weights(score)
+    print("Team weights complete")
+    export_weights(weights, "exports/%s/weights.csv" % (YEAR))
+    score_detail = get_score_detail(score, weights)
+    print("Scores detail complete")
+    score_detail.to_csv("exports/%s/scores_detail.csv" % (YEAR))
+    print_ranking(get_ranking(weights), n=200, strategy='seed')
+
+def get_score_detail(score, weights):
+    score_detail = transform_to_team_opponent(score)
+    for i, row in score_detail.iterrows():
+        opponent = row['opponent']
+        score_detail.at[i, 'opponent_strength'] = weights.get(opponent, None)
+    score_detail['diff'] = score_detail['team_score'] - score_detail['opponent_score']
+    score_detail['adjusted_diff'] = score_detail['diff'] + score_detail[
+        'opponent_strength']
+    return score_detail
+
+def transform_to_team_opponent(scores):
+    team1_rows = scores[['team1', 'team1_score', 'team2', 'team2_score']].rename(columns={'team1': 'team',
+                                                                                          'team1_score': 'team_score',
+                                                                                          'team2': 'opponent',
+                                                                                          'team2_score': 'opponent_score'})
+    team1_rows['home_team'] = team1_rows['opponent']
+    team2_rows = scores[['team2', 'team2_score', 'team1', 'team1_score']].rename(columns={'team2': 'team',
+                                                                                          'team2_score': 'team_score',
+                                                                                          'team1': 'opponent',
+                                                                                          'team1_score': 'opponent_score'})
+    team2_rows['home_team'] = team2_rows['team']
+    return pandas.concat([team1_rows, team2_rows], ignore_index=True)
+
+def get_weights(score):
+    teams = get_teams(score, min_games=MIN_GAMES)
+    scores = score.query('team1 in @teams and team2 in @teams')
     initial = dict((team, 0) for team in teams)
     weights = rank(initial, None, scores, MAX_DEPTH)
-    for team in weights:
-        if team == TEAM1 or team == TEAM2:
-            print('%s: %s' % (team, weights[team]))
-    #print_ranking(get_ranking(weights), n=200, strategy='rank')
+    return weights
 
 def rank(weights, prev_weights, scores, depth):
-    #print('---')
+    print('Ranking depth %s' % (depth))
     if is_stable(weights, prev_weights, strategy='weight', stability=0.99, tolerance=0.1) or depth == 0:
         return weights
     new_weights = dict(weights)
@@ -34,14 +68,19 @@ def rank(weights, prev_weights, scores, depth):
 def get_weight(team, weights, scores):
     adjusted_diffs = []
     for index, score in scores.iterrows():
-        adjusted_diffs.append(get_adjusted_diff(team, weights, score))
+        diff = get_adjusted_diff(team, weights, score)
+        adjusted_diffs.append(diff)
     return median(adjusted_diffs)
 
 def get_adjusted_diff(team, weights, score):
+    #team is away, opponent is at home
     if team == score.team1:
-        return cap_diff(score.team1_score - score.team2_score) + weights[score.team2]
+        opponent_strength = weights[score.team2] + HOME_COURT_ADVANTAGE
+        return cap_diff(score.team1_score - score.team2_score) + opponent_strength
+    #team is home, opponent is away
     else:
-        return cap_diff(score.team2_score - score.team1_score) + weights[score.team1]
+        opponent_strength = weights[score.team1]
+        return cap_diff(score.team2_score - score.team1_score) + opponent_strength
 
 def get_ranking(weights):
     return sorted(weights.items(), key=lambda x: x[1], reverse=True)
@@ -116,6 +155,14 @@ def bucket_diff(diff):
         return -5
     else:
         print(diff)
+
+def export_weights(weights, filename):
+    with open(filename, mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Team', 'Score'])  # Header row
+        for team in weights:
+            writer.writerow([team, weights[team]])
+    print(f"Exported adjusted diffs to {filename}.")
 
 if __name__ == '__main__':
     main()
