@@ -3,32 +3,80 @@ import requests
 import re
 import mysql.connector
 import pandas
+import os
+from datetime import datetime
+
 
 '''
 ENTER CURRENT YEAR
 '''
 YEAR = 2025
+TODAY = datetime.today().strftime('%Y-%m-%d')
+DIR = '../analysis/exports/%s/%s/' % (YEAR, TODAY)
+TODAYS_GAMES_FILE_PATH = os.path.join(DIR, 'todays_games.csv')
 
 def main():
     year = YEAR
     year_months = ['%s/11/'%(year - 1), '%s/12/'%(year - 1), '%s/01/'%(year), '%s/02/'%(year), '%s/03/'%(year)]
     scraper = ncaa_dot_com_scraper(year, year_months)
     #scraper.scrape()
-    scraper.download_scores(year)
+    #scraper.download_scores(year)
+    #scraper.download_todays_games()
+    scraper.scrape_schools()
 
 class ncaa_dot_com_scraper():
     def __init__(self, year, year_months):
         self.year = year
         self.year_months = year_months
-        self.connect()
+        #self.connect()
+        self.domain = 'https://www.ncaa.com'
         self.base = 'http://www.ncaa.com/scoreboard/basketball-men/d1'
         self.rankings_page  = 'https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings'
         self.bracket_page = 'https://www.ncaa.com/march-madness-live/bracket'
+        self.schools_page = 'https://www.ncaa.com/schools-index'
         self.insert_count = 0
         self.inserts_per_commit = 100
         self.dates = self.get_dates()
 
-    def scrape(self, scores=True, conferences=True, bracket=False, logos=False):
+    def scrape_schools(self):
+        r = requests.get(self.schools_page)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        tbody = soup.find('tbody')
+        rows = tbody.find_all('tr')
+        i = 0
+        for row in rows:
+            links = row.find_all('a')
+            link = links[1] #use second link because first link is a logo and has no text
+            school_url = '%s%s' % (self.domain, link['href'])
+            school = link.text
+            nickname = self.get_nickname(school_url)
+            print('%s %s' % (school, nickname))
+            i += 1
+            if i > 0:
+                return
+
+    def get_nickname(self, url):
+        r = requests.get(url)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        schools_details = soup.find('dl', class_='school-details')
+        dds = schools_details.find_all('dd')
+        nickname = dds[1].text
+        return nickname
+
+    def download_todays_games(self):
+        r = requests.get(self.base)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        games = []
+        for game in soup.find_all('ul', {'class': 'gamePod-game-teams'}):
+            teams = game.find_all('li')
+            away_team = teams[0].select('.gamePod-game-team-name')[0].text
+            home_team = teams[1].select('.gamePod-game-team-name')[0].text
+            game = {'away_team': away_team, 'home_team': home_team}
+            games.append(game)
+        df = pandas.DataFrame(games)
+        df.to_csv(TODAYS_GAMES_FILE_PATH)
+
+    def scrape(self, scores=True, conferences=False, bracket=False, logos=False):
         print('Starting scraper')
         if scores:
             self.scrape_scores()

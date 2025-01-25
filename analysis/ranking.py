@@ -11,8 +11,6 @@ MIN_GAMES = 10
 MAX_DIFF = 100
 HOME_COURT_ADVANTAGE = 4
 
-all_adjusted_diffs = [] #this is a global variable that is updated during ranking iterations
-
 def main():
     score = pandas.read_csv('exports/%s/score.csv' % (YEAR))
     weights = get_weights(score)

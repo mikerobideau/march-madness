@@ -6,11 +6,11 @@ YEAR = 2025
 
 #ENTER GAME DETAILS HERE
 #-----------------------
-FAVORITE = 'Marquette'
-FAVORITE_ODDS = -490
-UNDERDOG = 'Villanova'
-UNDERDOG_ODDS = 350
-HOME_TEAM = 'Marquette'
+FAVORITE = 'Iowa St.'
+FAVORITE_ODDS = -550
+UNDERDOG = 'Arizona St.'
+UNDERDOG_ODDS = 400
+HOME_TEAM = 'Arizona St.'
 HOME_COURT_ADVANTAGE = 4
 #-----------------------
 
@@ -101,12 +101,12 @@ def analyze(book, score, team1, team1_odds, team2, team2_odds, home_team, print_
         'highest_ev': team1_ev if team1_ev >= team2_ev else team2_ev,
         'team1_ev': team1_ev,
         'team1_p': team1_p,
-        'team1_spread': np.median(spread),
+        'team1_spread': np.median(spreads),
         'team1_book_odds': team1_odds,
         'team2': team2,
         'team2_ev': team2_ev,
         'team2_p': team2_p,
-        'team2_spread': -1 * np.median(spread),
+        'team2_spread': -1 * np.median(spreads),
         'team2_book_odds': team2_odds
     }
 

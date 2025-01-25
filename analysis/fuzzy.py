@@ -11,7 +11,7 @@ MATCH_ANY_WORDS = ['Saint', 'St.', 'State', ]
 def match(name, candidates):
     required_word = next((word for word in MANDATORY_MATCH_WORDS if word in name), None)
     require_any = next((word for word in MATCH_ANY_WORDS if word in name), None)
-    matches = all_matches(name, candidates)
+    matches = all_matches(remove_last_word(name), candidates)
     if not matches:
         return None
 
@@ -38,6 +38,7 @@ def score(str1, str2):
     # which is important here because it's more likely that the first part of the name (e.g., "Kansas") will match than
     # the second part (e.g., "Jayhawks")
     phonetic_score = 100 if phonetic_match(str1, str2) else 0  #100 if phonetic encoding matches
+    #return (token_ratio * 0.5) + (phonetic_score * 0.5)
     return (token_ratio * 0.3) + (jaro_score * 0.5) + (phonetic_score * 0.3)
 
 def phonetic_match(str1, str2):
