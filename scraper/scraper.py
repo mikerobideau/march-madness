@@ -25,7 +25,8 @@ def main():
     #scraper.scrape()
     #scraper.download_scores(year)
     #scraper.download_todays_games()
-    scraper.scrape_schools()
+    #scraper.scrape_schools()
+    scraper.download_teams(YEAR)
 
 class ncaa_dot_com_scraper():
     def __init__(self, year, year_months):
@@ -278,7 +279,7 @@ class ncaa_dot_com_scraper():
         query = '''
             SELECT
                 year AS year,
-                scool,
+                school,
                 nickname
             FROM ncaa_d1_basketball_team
             WHERE year = 

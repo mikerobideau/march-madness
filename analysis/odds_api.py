@@ -3,9 +3,9 @@ import pandas
 import json
 import os
 from datetime import datetime
+from fuzzywuzzy import process
 
 import analysis
-import fuzzy
 
 YEAR = 2025
 BOOKS = ['fanduel', 'draftkings']
@@ -18,6 +18,8 @@ REPORT_FILE_PATH = os.path.join(DIR, 'report.csv')
 SCORES = analysis.remove_d2_d3_games(pandas.read_csv('exports/2025/scores_detail.csv'))
 TODAYS_GAMES_FILEPATH = os.path.join(DIR, 'todays_games.csv')
 TODAYS_GAMES = pandas.read_csv(TODAYS_GAMES_FILEPATH)
+TEAMS = team_df = pandas.read_csv('exports/%s/teams.csv' % (YEAR))
+WEIGHTS = pandas.read_csv('exports/%s/weights.csv' % (YEAR))
 
 def main():
     #fetch()
@@ -34,6 +36,11 @@ def fetch():
             json.dump(data, json_file, indent=4)
 
 def display_report():
+    #
+    # THIS REPORT NEEDS IMPROVEMENT
+    # THERE ARE TOO MANY FUZZY MATCHING ERRORS WHEN TRYING TO MATCH TEAM NAMES FROM THE ODDS API
+    #
+
     df = pandas.read_csv(REPORT_FILE_PATH)
     df_best_ev = df.loc[df.groupby(['team1', 'team2'])['highest_ev'].idxmax()]
     df_best_ev = df_best_ev.sort_values(by='highest_ev', ascending=False).reset_index(drop=True)
@@ -82,27 +89,34 @@ def report():
     df.to_csv(REPORT_FILE_PATH)
     print('Report complete')
 
-def process_outcomes(away, home, book, outcomes):
+def process_outcomes(odds_api_away_team, odds_api_home_team, book, outcomes):
     df = pandas.DataFrame(outcomes)
     outcome1 = df.iloc[0]
     outcome2 = df.iloc[1]
 
-    away_team_odds = outcome1['price'] if outcome1['name'] == away else outcome2['price']
-    home_team_odds = outcome1['price'] if outcome1['name'] == home else outcome2['price']
+    away_team_odds = outcome1['price'] if outcome1['name'] == odds_api_away_team else outcome2['price']
+    home_team_odds = outcome1['price'] if outcome1['name'] == odds_api_home_team else outcome2['price']
 
-    teams = pandas.read_csv('exports/%s/teams.csv' % (YEAR))
-
-    #need to fuzzy match team names between ncaa.com and odds api
-    #odds api uses full names w/ mascot
-    team_and_nickname = teams['team_and_nickname'].tolist()
-    away_team_match = fuzzy.match(away, team_and_nickname)
-    home_team_match = fuzzy.match(home, team_and_nickname)
-    #then convert back to school name, becuase that's what analysis script uses
-    away_team = teams.loc[teams["team_and_nickname"] == away_team_match['name']].iloc[0]['team']
-    home_team = teams.loc[teams["team_and_nickname"] == home_team_match['name']].iloc[0]['team']
+    away_team = fuzzy_match(odds_api_away_team, TEAMS)
+    home_team = fuzzy_match(odds_api_home_team, TEAMS)
 
     result = analysis.analyze(book, SCORES, away_team, away_team_odds, home_team, home_team_odds, home_team, False)
     return result
+
+def fuzzy_match(odds_api_name, teams):
+    #convert from school name used in odds api to school name used on ncaa.com.  Need to use full name like "Kansas Jayhawks" becuase that's how odds api has it
+    teams['team_and_nickname'] = teams['team'] + ' ' + teams['nickname']
+    team_and_nicknames = teams['team_and_nickname'].tolist()
+    match_and_score = process.extractOne(odds_api_name, team_and_nicknames)
+    match = match_and_score[0]
+    #but we're still not done, because for some infuriating reason the way ncaa.com writes the full team name on the school page isn't always the same as how they write the school part of the name on the score page (e.g. North Carolina A&T State Aggies -> N.C. A&T State)
+    #so we need to fuzzy match just the school part to get the name in the score data
+    school = teams.loc[teams["team_and_nickname"] == match].iloc[0]['team']
+    score_page_teams = WEIGHTS['Team'].tolist()
+    #score_page_match = fuzzy.match(match['name'], score_page_teams)
+    match_and_score2 = process.extractOne(school, score_page_teams)
+    match2 = match_and_score2[0]
+    return match2
 
 def format(value):
     return "{:.2f}".format(value)
