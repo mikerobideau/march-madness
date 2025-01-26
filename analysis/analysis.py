@@ -6,17 +6,16 @@ YEAR = 2025
 
 #ENTER GAME DETAILS HERE
 #-----------------------
-FAVORITE = 'Iowa St.'
-FAVORITE_ODDS = -550
-UNDERDOG = 'Arizona St.'
-UNDERDOG_ODDS = 400
-HOME_TEAM = 'Arizona St.'
+AWAY_TEAM = 'Texas Southern'
+AWAY_TEAM_ODDS = 118
+HOME_TEAM = 'Alabama St.'
+HOME_TEAM_ODDS = -144
 HOME_COURT_ADVANTAGE = 4
 #-----------------------
 
 def main():
     score = remove_d2_d3_games(pandas.read_csv('exports/2025/scores_detail.csv'))
-    analyze('', score, FAVORITE, FAVORITE_ODDS, UNDERDOG, UNDERDOG_ODDS, HOME_TEAM, True)
+    analyze('', score, HOME_TEAM, HOME_TEAM_ODDS, AWAY_TEAM, AWAY_TEAM_ODDS, HOME_TEAM, True)
     #validate_model(score)
     #home_court = calc_home_court_advantage(score)
 
@@ -94,6 +93,7 @@ def analyze(book, score, team1, team1_odds, team2, team2_odds, home_team, print_
     team2_p = team2_wins / (team1_wins + team2_wins)
     team1_ev = get_ev(team1_p, team1_odds)
     team2_ev = get_ev(team2_p, team2_odds)
+    spread = abs(np.median(spreads))
 
     row = {
         'book': book,
@@ -101,32 +101,28 @@ def analyze(book, score, team1, team1_odds, team2, team2_odds, home_team, print_
         'highest_ev': team1_ev if team1_ev >= team2_ev else team2_ev,
         'team1_ev': team1_ev,
         'team1_p': team1_p,
-        'team1_spread': np.median(spreads),
+        'team1_spread': -1 * spread if team1_p >= team2_p else spread,
         'team1_book_odds': team1_odds,
         'team2': team2,
         'team2_ev': team2_ev,
         'team2_p': team2_p,
-        'team2_spread': -1 * np.median(spreads),
+        'team2_spread': -1 * spread if team2_p > team1_p else spread,
         'team2_book_odds': team2_odds
     }
 
     if print_enabled:
         print('------------------------------')
         print('%s (%s)' % (team1, format_odds(team1_odds)))
-        print('------------------------------')
         print('EV: %s' % (format(team1_ev)))
         print('Win probability: %s' % (format(team1_p)))
-        print("Spread (Mean): %s" % (format(np.mean(spreads))))
-        print("Spread (Median): %s" % (format(np.median(spreads))))
-        print("Spread (SD): %s" % (format(np.std(spreads))))
         print('------------------------------')
         print('%s (%s)' % (team2, format_odds(team2_odds)))
-        print('------------------------------')
         print('EV: %s' % (format(team2_ev)))
         print('Win probability: %s' % (format(team2_p)))
-        print("Spread (Mean): %s" % (format(-1* np.mean(spreads))))
-        print("Spread (Median): %s" % (format(-1 * np.median(spreads))))
-        print("Spread (SD): %s" % (format(np.std(spreads))))
+        print('------------------------------')
+        print("Spread (Mean): %s" % (format(abs(np.mean(spreads)))))
+        print("Spread (Median): %s" % (format(abs(np.median(spreads)))))
+        print("Spread (SD): %s" % (format(abs(np.std(spreads)))))
 
     return row
 

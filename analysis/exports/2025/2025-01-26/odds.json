@@ -1,1850 +1,37 @@
 [
     {
-        "id": "364edaa5b79e623f7532e9513e28624f",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T17:00:00Z",
-        "home_team": "Fordham Rams",
-        "away_team": "Duquesne Dukes",
-        "bookmakers": [
-            {
-                "key": "betonlineag",
-                "title": "BetOnline.ag",
-                "last_update": "2025-01-26T15:46:33Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:33Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -176
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 156
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "lowvig",
-                "title": "LowVig.ag",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:00Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -176
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 156
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -164
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 136
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -192
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 155
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -185
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 154
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betus",
-                "title": "BetUS",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -175
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 150
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -185
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 150
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -175
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 150
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Duquesne Dukes",
-                                "price": -186
-                            },
-                            {
-                                "name": "Fordham Rams",
-                                "price": 150
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "1e9573c53926e3105fc1dbb4ac2f5717",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T17:00:00Z",
-        "home_team": "Indiana Hoosiers",
-        "away_team": "Maryland Terrapins",
-        "bookmakers": [
-            {
-                "key": "betonlineag",
-                "title": "BetOnline.ag",
-                "last_update": "2025-01-26T15:46:33Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:33Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 145
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -165
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "lowvig",
-                "title": "LowVig.ag",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:00Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 145
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -165
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 122
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -146
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 124
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -152
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 136
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -162
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betus",
-                "title": "BetUS",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 134
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -155
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 135
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -160
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 140
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -165
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Indiana Hoosiers",
-                                "price": 123
-                            },
-                            {
-                                "name": "Maryland Terrapins",
-                                "price": -150
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "bd6a8098513e4d3d6d107fd83506c99e",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T18:00:00Z",
-        "home_team": "Central Connecticut St Blue Devils",
-        "away_team": "Chicago St Cougars",
-        "bookmakers": [
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Central Connecticut St Blue Devils",
-                                "price": -2300
-                            },
-                            {
-                                "name": "Chicago St Cougars",
-                                "price": 1060
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Central Connecticut St Blue Devils",
-                                "price": -1600
-                            },
-                            {
-                                "name": "Chicago St Cougars",
-                                "price": 900
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Central Connecticut St Blue Devils",
-                                "price": -2000
-                            },
-                            {
-                                "name": "Chicago St Cougars",
-                                "price": 825
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Central Connecticut St Blue Devils",
-                                "price": -1600
-                            },
-                            {
-                                "name": "Chicago St Cougars",
-                                "price": 875
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Central Connecticut St Blue Devils",
-                                "price": -1430
-                            },
-                            {
-                                "name": "Chicago St Cougars",
-                                "price": 800
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "bbd48714df667b82bb496386f0fff4e4",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T18:00:00Z",
-        "home_team": "Mercyhurst Lakers",
-        "away_team": "LIU Sharks",
-        "bookmakers": [
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "LIU Sharks",
-                                "price": -138
-                            },
-                            {
-                                "name": "Mercyhurst Lakers",
-                                "price": 115
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "LIU Sharks",
-                                "price": -142
-                            },
-                            {
-                                "name": "Mercyhurst Lakers",
-                                "price": 120
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "LIU Sharks",
-                                "price": -145
-                            },
-                            {
-                                "name": "Mercyhurst Lakers",
-                                "price": 115
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "LIU Sharks",
-                                "price": -140
-                            },
-                            {
-                                "name": "Mercyhurst Lakers",
-                                "price": 115
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "LIU Sharks",
-                                "price": -150
-                            },
-                            {
-                                "name": "Mercyhurst Lakers",
-                                "price": 123
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "LIU Sharks",
-                                "price": -145
-                            },
-                            {
-                                "name": "Mercyhurst Lakers",
-                                "price": 125
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "dc2cb97244dc06c89839f3a6b105d3e3",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T18:00:00Z",
-        "home_team": "Memphis Tigers",
-        "away_team": "UAB Blazers",
-        "bookmakers": [
-            {
-                "key": "betonlineag",
-                "title": "BetOnline.ag",
-                "last_update": "2025-01-26T15:46:33Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:33Z",
-                        "outcomes": [
-                            {
-                                "name": "Memphis Tigers",
-                                "price": -300
-                            },
-                            {
-                                "name": "UAB Blazers",
-                                "price": 250
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "lowvig",
-                "title": "LowVig.ag",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:00Z",
-                        "outcomes": [
-                            {
-                                "name": "Memphis Tigers",
-                                "price": -300
-                            },
-                            {
-                                "name": "UAB Blazers",
-                                "price": 250
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Memphis Tigers",
-                                "price": -360
-                            },
-                            {
-                                "name": "UAB Blazers",
-                                "price": 280
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Memphis Tigers",
-                                "price": -323
-                            },
-                            {
-                                "name": "UAB Blazers",
-                                "price": 251
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betus",
-                "title": "BetUS",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Memphis Tigers",
-                                "price": -300
-                            },
-                            {
-                                "name": "UAB Blazers",
-                                "price": 250
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Memphis Tigers",
-                                "price": -325
-                            },
-                            {
-                                "name": "UAB Blazers",
-                                "price": 260
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "Memphis Tigers",
-                                "price": -330
-                            },
-                            {
-                                "name": "UAB Blazers",
-                                "price": 265
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Memphis Tigers",
-                                "price": -375
-                            },
-                            {
-                                "name": "UAB Blazers",
-                                "price": 280
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "1d9bddbaa998c139d709f4f26cc9569e",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T18:00:00Z",
-        "home_team": "Wisconsin Badgers",
-        "away_team": "Nebraska Cornhuskers",
-        "bookmakers": [
-            {
-                "key": "betonlineag",
-                "title": "BetOnline.ag",
-                "last_update": "2025-01-26T15:46:33Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:33Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 275
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -330
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "lowvig",
-                "title": "LowVig.ag",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:00Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 275
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -330
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 245
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -310
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 266
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -345
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 270
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -340
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betus",
-                "title": "BetUS",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 270
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -330
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 260
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -325
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 260
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -320
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Nebraska Cornhuskers",
-                                "price": 265
-                            },
-                            {
-                                "name": "Wisconsin Badgers",
-                                "price": -345
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "49fd21dfbe7a42b831949d6e8da468c0",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T19:00:00Z",
-        "home_team": "Stonehill Skyhawks",
-        "away_team": "Fairleigh Dickinson Knights",
-        "bookmakers": [
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Fairleigh Dickinson Knights",
-                                "price": 104
-                            },
-                            {
-                                "name": "Stonehill Skyhawks",
-                                "price": -125
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Fairleigh Dickinson Knights",
-                                "price": 105
-                            },
-                            {
-                                "name": "Stonehill Skyhawks",
-                                "price": -150
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Fairleigh Dickinson Knights",
-                                "price": 114
-                            },
-                            {
-                                "name": "Stonehill Skyhawks",
-                                "price": -135
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Fairleigh Dickinson Knights",
-                                "price": 115
-                            },
-                            {
-                                "name": "Stonehill Skyhawks",
-                                "price": -140
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Fairleigh Dickinson Knights",
-                                "price": 108
-                            },
-                            {
-                                "name": "Stonehill Skyhawks",
-                                "price": -132
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "Fairleigh Dickinson Knights",
-                                "price": 120
-                            },
-                            {
-                                "name": "Stonehill Skyhawks",
-                                "price": -140
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id": "dd94e9984d2a9f00c62e61bc3da80c47",
         "sport_key": "basketball_ncaab",
         "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T19:00:00Z",
+        "commence_time": "2025-01-26T19:02:39Z",
         "home_team": "North Texas Mean Green",
         "away_team": "Florida Atlantic Owls",
-        "bookmakers": [
-            {
-                "key": "betonlineag",
-                "title": "BetOnline.ag",
-                "last_update": "2025-01-26T15:46:33Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:33Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 310
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -380
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "lowvig",
-                "title": "LowVig.ag",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:00Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 310
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -380
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 300
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -385
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 317
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -435
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 310
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -395
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betus",
-                "title": "BetUS",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 305
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -380
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 310
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -400
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 310
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -415
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Florida Atlantic Owls",
-                                "price": 280
-                            },
-                            {
-                                "name": "North Texas Mean Green",
-                                "price": -360
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "74d76f6c0c3d29d9eb6ee91c9d3af654",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T19:00:00Z",
-        "home_team": "St. Francis (PA) Red Flash",
-        "away_team": "Wagner Seahawks",
-        "bookmakers": [
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "St. Francis (PA) Red Flash",
-                                "price": -154
-                            },
-                            {
-                                "name": "Wagner Seahawks",
-                                "price": 128
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "St. Francis (PA) Red Flash",
-                                "price": -162
-                            },
-                            {
-                                "name": "Wagner Seahawks",
-                                "price": 136
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "St. Francis (PA) Red Flash",
-                                "price": -160
-                            },
-                            {
-                                "name": "Wagner Seahawks",
-                                "price": 135
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "St. Francis (PA) Red Flash",
-                                "price": -167
-                            },
-                            {
-                                "name": "Wagner Seahawks",
-                                "price": 138
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "St. Francis (PA) Red Flash",
-                                "price": -165
-                            },
-                            {
-                                "name": "Wagner Seahawks",
-                                "price": 140
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "bc51da42b4e19b56a764d38db5d37b2b",
-        "sport_key": "basketball_ncaab",
-        "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T20:00:00Z",
-        "home_team": "Illinois Fighting Illini",
-        "away_team": "Northwestern Wildcats",
-        "bookmakers": [
-            {
-                "key": "betonlineag",
-                "title": "BetOnline.ag",
-                "last_update": "2025-01-26T15:46:33Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:33Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -360
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 290
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "lowvig",
-                "title": "LowVig.ag",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -360
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 290
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -385
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 300
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -375
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 295
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -385
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 288
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betus",
-                "title": "BetUS",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -360
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 290
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betmgm",
-                "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -375
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 290
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "bovada",
-                "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -390
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 295
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Illinois Fighting Illini",
-                                "price": -375
-                            },
-                            {
-                                "name": "Northwestern Wildcats",
-                                "price": 285
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "bookmakers": []
     },
     {
         "id": "cd271de45b82e81eef0f6dcf0be23799",
         "sport_key": "basketball_ncaab",
         "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T20:00:00Z",
+        "commence_time": "2025-01-26T20:01:35Z",
         "home_team": "Texas Tech Red Raiders",
         "away_team": "Oklahoma St Cowboys",
         "bookmakers": [
             {
-                "key": "betonlineag",
-                "title": "BetOnline.ag",
-                "last_update": "2025-01-26T15:46:33Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:33Z",
-                        "outcomes": [
-                            {
-                                "name": "Oklahoma St Cowboys",
-                                "price": 1150
-                            },
-                            {
-                                "name": "Texas Tech Red Raiders",
-                                "price": -2500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "lowvig",
-                "title": "LowVig.ag",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Oklahoma St Cowboys",
-                                "price": 1150
-                            },
-                            {
-                                "name": "Texas Tech Red Raiders",
-                                "price": -2500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "fanduel",
-                "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
-                        "outcomes": [
-                            {
-                                "name": "Oklahoma St Cowboys",
-                                "price": 1400
-                            },
-                            {
-                                "name": "Texas Tech Red Raiders",
-                                "price": -4000
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "draftkings",
-                "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Oklahoma St Cowboys",
-                                "price": 1200
-                            },
-                            {
-                                "name": "Texas Tech Red Raiders",
-                                "price": -2400
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "mybookieag",
-                "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
-                        "outcomes": [
-                            {
-                                "name": "Oklahoma St Cowboys",
-                                "price": 1084
-                            },
-                            {
-                                "name": "Texas Tech Red Raiders",
-                                "price": -2500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betus",
-                "title": "BetUS",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Oklahoma St Cowboys",
-                                "price": 1175
-                            },
-                            {
-                                "name": "Texas Tech Red Raiders",
-                                "price": -2500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "key": "betmgm",
                 "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
+                "last_update": "2025-01-26T21:20:38Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
+                        "last_update": "2025-01-26T21:20:38Z",
                         "outcomes": [
                             {
                                 "name": "Oklahoma St Cowboys",
-                                "price": 1100
+                                "price": 3300
                             },
                             {
                                 "name": "Texas Tech Red Raiders",
-                                "price": -2500
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betrivers",
-                "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
-                        "outcomes": [
-                            {
-                                "name": "Oklahoma St Cowboys",
-                                "price": 1050
-                            },
-                            {
-                                "name": "Texas Tech Red Raiders",
-                                "price": -2500
+                                "price": -10000
                             }
                         ]
                     }
@@ -1856,68 +43,26 @@
         "id": "dad410a4f0c18e7832ed444c2490686a",
         "sport_key": "basketball_ncaab",
         "sport_title": "NCAAB",
-        "commence_time": "2025-01-26T20:00:00Z",
+        "commence_time": "2025-01-26T20:02:32Z",
         "home_team": "Tulsa Golden Hurricane",
         "away_team": "Wichita St Shockers",
         "bookmakers": [
             {
-                "key": "betonlineag",
-                "title": "BetOnline.ag",
-                "last_update": "2025-01-26T15:46:33Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:46:33Z",
-                        "outcomes": [
-                            {
-                                "name": "Tulsa Golden Hurricane",
-                                "price": 175
-                            },
-                            {
-                                "name": "Wichita St Shockers",
-                                "price": -205
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "lowvig",
-                "title": "LowVig.ag",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:00Z",
-                        "outcomes": [
-                            {
-                                "name": "Tulsa Golden Hurricane",
-                                "price": 175
-                            },
-                            {
-                                "name": "Wichita St Shockers",
-                                "price": -205
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "key": "fanduel",
                 "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
+                "last_update": "2025-01-26T21:22:30Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
+                        "last_update": "2025-01-26T21:22:30Z",
                         "outcomes": [
                             {
                                 "name": "Tulsa Golden Hurricane",
-                                "price": 172
+                                "price": -430
                             },
                             {
                                 "name": "Wichita St Shockers",
-                                "price": -210
+                                "price": 300
                             }
                         ]
                     }
@@ -1926,19 +71,19 @@
             {
                 "key": "draftkings",
                 "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
+                "last_update": "2025-01-26T21:22:28Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
+                        "last_update": "2025-01-26T21:22:28Z",
                         "outcomes": [
                             {
                                 "name": "Tulsa Golden Hurricane",
-                                "price": 195
+                                "price": -445
                             },
                             {
                                 "name": "Wichita St Shockers",
-                                "price": -238
+                                "price": 310
                             }
                         ]
                     }
@@ -1947,40 +92,19 @@
             {
                 "key": "mybookieag",
                 "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
+                "last_update": "2025-01-26T21:21:00Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
+                        "last_update": "2025-01-26T21:21:00Z",
                         "outcomes": [
                             {
                                 "name": "Tulsa Golden Hurricane",
-                                "price": 174
+                                "price": -118
                             },
                             {
                                 "name": "Wichita St Shockers",
-                                "price": -217
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "betus",
-                "title": "BetUS",
-                "last_update": "2025-01-26T15:47:01Z",
-                "markets": [
-                    {
-                        "key": "h2h",
-                        "last_update": "2025-01-26T15:47:01Z",
-                        "outcomes": [
-                            {
-                                "name": "Tulsa Golden Hurricane",
-                                "price": 175
-                            },
-                            {
-                                "name": "Wichita St Shockers",
-                                "price": -205
+                                "price": -118
                             }
                         ]
                     }
@@ -1989,19 +113,19 @@
             {
                 "key": "betmgm",
                 "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
+                "last_update": "2025-01-26T21:20:38Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
+                        "last_update": "2025-01-26T21:20:38Z",
                         "outcomes": [
                             {
                                 "name": "Tulsa Golden Hurricane",
-                                "price": 180
+                                "price": -550
                             },
                             {
                                 "name": "Wichita St Shockers",
-                                "price": -220
+                                "price": 375
                             }
                         ]
                     }
@@ -2010,19 +134,19 @@
             {
                 "key": "bovada",
                 "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
+                "last_update": "2025-01-26T21:22:16Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
+                        "last_update": "2025-01-26T21:22:16Z",
                         "outcomes": [
                             {
                                 "name": "Tulsa Golden Hurricane",
-                                "price": 175
+                                "price": -425
                             },
                             {
                                 "name": "Wichita St Shockers",
-                                "price": -210
+                                "price": 285
                             }
                         ]
                     }
@@ -2031,19 +155,50 @@
             {
                 "key": "betrivers",
                 "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
+                "last_update": "2025-01-26T21:22:29Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
+                        "last_update": "2025-01-26T21:22:29Z",
                         "outcomes": [
                             {
                                 "name": "Tulsa Golden Hurricane",
-                                "price": 165
+                                "price": -435
                             },
                             {
                                 "name": "Wichita St Shockers",
-                                "price": -205
+                                "price": 265
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bc51da42b4e19b56a764d38db5d37b2b",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-26T20:07:00Z",
+        "home_team": "Illinois Fighting Illini",
+        "away_team": "Northwestern Wildcats",
+        "bookmakers": [
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2025-01-26T21:20:38Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:20:38Z",
+                        "outcomes": [
+                            {
+                                "name": "Illinois Fighting Illini",
+                                "price": -10000
+                            },
+                            {
+                                "name": "Northwestern Wildcats",
+                                "price": 3300
                             }
                         ]
                     }
@@ -2062,19 +217,19 @@
             {
                 "key": "fanduel",
                 "title": "FanDuel",
-                "last_update": "2025-01-26T15:40:37Z",
+                "last_update": "2025-01-26T21:22:30Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:40:37Z",
+                        "last_update": "2025-01-26T21:22:30Z",
                         "outcomes": [
                             {
                                 "name": "Army Knights",
-                                "price": -134
+                                "price": -122
                             },
                             {
                                 "name": "Navy Midshipmen",
-                                "price": 112
+                                "price": -104
                             }
                         ]
                     }
@@ -2083,19 +238,19 @@
             {
                 "key": "mybookieag",
                 "title": "MyBookie.ag",
-                "last_update": "2025-01-26T15:45:21Z",
+                "last_update": "2025-01-26T21:21:00Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:45:21Z",
+                        "last_update": "2025-01-26T21:21:00Z",
                         "outcomes": [
                             {
                                 "name": "Army Knights",
-                                "price": -150
+                                "price": 115
                             },
                             {
                                 "name": "Navy Midshipmen",
-                                "price": 110
+                                "price": -154
                             }
                         ]
                     }
@@ -2104,19 +259,19 @@
             {
                 "key": "draftkings",
                 "title": "DraftKings",
-                "last_update": "2025-01-26T15:46:31Z",
+                "last_update": "2025-01-26T21:22:28Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
+                        "last_update": "2025-01-26T21:22:28Z",
                         "outcomes": [
                             {
                                 "name": "Army Knights",
-                                "price": -130
+                                "price": -115
                             },
                             {
                                 "name": "Navy Midshipmen",
-                                "price": 110
+                                "price": -115
                             }
                         ]
                     }
@@ -2125,19 +280,19 @@
             {
                 "key": "betmgm",
                 "title": "BetMGM",
-                "last_update": "2025-01-26T15:46:31Z",
+                "last_update": "2025-01-26T21:20:38Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
+                        "last_update": "2025-01-26T21:20:38Z",
                         "outcomes": [
                             {
                                 "name": "Army Knights",
-                                "price": -130
+                                "price": -120
                             },
                             {
                                 "name": "Navy Midshipmen",
-                                "price": 105
+                                "price": -102
                             }
                         ]
                     }
@@ -2146,19 +301,19 @@
             {
                 "key": "betrivers",
                 "title": "BetRivers",
-                "last_update": "2025-01-26T15:46:31Z",
+                "last_update": "2025-01-26T21:22:29Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:46:31Z",
+                        "last_update": "2025-01-26T21:22:29Z",
                         "outcomes": [
                             {
                                 "name": "Army Knights",
-                                "price": -125
+                                "price": -148
                             },
                             {
                                 "name": "Navy Midshipmen",
-                                "price": 102
+                                "price": -113
                             }
                         ]
                     }
@@ -2167,19 +322,1163 @@
             {
                 "key": "bovada",
                 "title": "Bovada",
-                "last_update": "2025-01-26T15:45:26Z",
+                "last_update": "2025-01-26T21:22:16Z",
                 "markets": [
                     {
                         "key": "h2h",
-                        "last_update": "2025-01-26T15:45:26Z",
+                        "last_update": "2025-01-26T21:22:16Z",
                         "outcomes": [
                             {
                                 "name": "Army Knights",
-                                "price": -130
+                                "price": -120
                             },
                             {
                                 "name": "Navy Midshipmen",
-                                "price": 110
+                                "price": -110
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "de542ff39524ec441066392a3296b5fb",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-27T20:00:00Z",
+        "home_team": "Arkansas-Little Rock Trojans",
+        "away_team": "Eastern Illinois Panthers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Arkansas-Little Rock Trojans",
+                                "price": -465
+                            },
+                            {
+                                "name": "Eastern Illinois Panthers",
+                                "price": 350
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Arkansas-Little Rock Trojans",
+                                "price": -500
+                            },
+                            {
+                                "name": "Eastern Illinois Panthers",
+                                "price": 346
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2025-01-26T21:22:28Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:28Z",
+                        "outcomes": [
+                            {
+                                "name": "Arkansas-Little Rock Trojans",
+                                "price": -485
+                            },
+                            {
+                                "name": "Eastern Illinois Panthers",
+                                "price": 370
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "93f1e89c8c5e2d1249a591673464dab4",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-27T23:00:00Z",
+        "home_team": "Alcorn St Braves",
+        "away_team": "Bethune-Cookman Wildcats",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Alcorn St Braves",
+                                "price": 115
+                            },
+                            {
+                                "name": "Bethune-Cookman Wildcats",
+                                "price": -138
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "cb741c3151832c153aaa3d97dbad0c31",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-27T23:00:00Z",
+        "home_team": "Troy Trojans",
+        "away_team": "Southern Miss Golden Eagles",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Southern Miss Golden Eagles",
+                                "price": 580
+                            },
+                            {
+                                "name": "Troy Trojans",
+                                "price": -880
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Southern Miss Golden Eagles",
+                                "price": 499
+                            },
+                            {
+                                "name": "Troy Trojans",
+                                "price": -909
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "56685f7312989ba0844a0a6b3074f306",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-27T23:30:00Z",
+        "home_team": "Michigan Wolverines",
+        "away_team": "Penn State Nittany Lions",
+        "bookmakers": [
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2025-01-26T21:22:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Michigan Wolverines",
+                                "price": -375
+                            },
+                            {
+                                "name": "Penn State Nittany Lions",
+                                "price": 285
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Michigan Wolverines",
+                                "price": -365
+                            },
+                            {
+                                "name": "Penn State Nittany Lions",
+                                "price": 285
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Michigan Wolverines",
+                                "price": -400
+                            },
+                            {
+                                "name": "Penn State Nittany Lions",
+                                "price": 269
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2025-01-26T21:22:28Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:28Z",
+                        "outcomes": [
+                            {
+                                "name": "Michigan Wolverines",
+                                "price": -360
+                            },
+                            {
+                                "name": "Penn State Nittany Lions",
+                                "price": 285
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5b6be4684fae9345ff9a3bc5ccddb05a",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T00:00:00Z",
+        "home_team": "Arkansas-Pine Bluff Golden Lions",
+        "away_team": "Grambling St Tigers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Arkansas-Pine Bluff Golden Lions",
+                                "price": 190
+                            },
+                            {
+                                "name": "Grambling St Tigers",
+                                "price": -235
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2c98f6a9b489109e669e3c013a881e0d",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T00:00:00Z",
+        "home_team": "Boston Univ. Terriers",
+        "away_team": "Holy Cross Crusaders",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Boston Univ. Terriers",
+                                "price": -194
+                            },
+                            {
+                                "name": "Holy Cross Crusaders",
+                                "price": 160
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Boston Univ. Terriers",
+                                "price": -190
+                            },
+                            {
+                                "name": "Holy Cross Crusaders",
+                                "price": 125
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7ed7b8180eb42b82b26f4e4458f5eb60",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T00:30:00Z",
+        "home_team": "New Orleans Privateers",
+        "away_team": "Incarnate Word Cardinals",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Incarnate Word Cardinals",
+                                "price": -176
+                            },
+                            {
+                                "name": "New Orleans Privateers",
+                                "price": 146
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Incarnate Word Cardinals",
+                                "price": -190
+                            },
+                            {
+                                "name": "New Orleans Privateers",
+                                "price": 130
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "661d364689c033be2057dc974bf353a5",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T00:30:00Z",
+        "home_team": "UT Rio Grande Valley Vaqueros",
+        "away_team": "Nicholls St Colonels",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Nicholls St Colonels",
+                                "price": 104
+                            },
+                            {
+                                "name": "UT Rio Grande Valley Vaqueros",
+                                "price": -125
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8148405438161df7a7bdb70dc87605b5",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T00:30:00Z",
+        "home_team": "UL Monroe Warhawks",
+        "away_team": "South Alabama Jaguars",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "South Alabama Jaguars",
+                                "price": -1100
+                            },
+                            {
+                                "name": "UL Monroe Warhawks",
+                                "price": 680
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "South Alabama Jaguars",
+                                "price": -1250
+                            },
+                            {
+                                "name": "UL Monroe Warhawks",
+                                "price": 593
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b736b990c98cd54cb63f21b6dbb663fd",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:00:00Z",
+        "home_team": "Jackson St Tigers",
+        "away_team": "Florida A&M Rattlers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Florida A&M Rattlers",
+                                "price": 275
+                            },
+                            {
+                                "name": "Jackson St Tigers",
+                                "price": -350
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Florida A&M Rattlers",
+                                "price": 260
+                            },
+                            {
+                                "name": "Jackson St Tigers",
+                                "price": -425
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "eb4e6520c0daf57cf176c359850f7724",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:00:00Z",
+        "home_team": "Ohio State Buckeyes",
+        "away_team": "Iowa Hawkeyes",
+        "bookmakers": [
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2025-01-26T21:22:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Iowa Hawkeyes",
+                                "price": 245
+                            },
+                            {
+                                "name": "Ohio State Buckeyes",
+                                "price": -315
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Iowa Hawkeyes",
+                                "price": 230
+                            },
+                            {
+                                "name": "Ohio State Buckeyes",
+                                "price": -285
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Iowa Hawkeyes",
+                                "price": 216
+                            },
+                            {
+                                "name": "Ohio State Buckeyes",
+                                "price": -303
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2025-01-26T21:22:28Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:28Z",
+                        "outcomes": [
+                            {
+                                "name": "Iowa Hawkeyes",
+                                "price": 240
+                            },
+                            {
+                                "name": "Ohio State Buckeyes",
+                                "price": -298
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b4497f11b27a0806df64f1da658d6f0f",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:00:00Z",
+        "home_team": "Lamar Cardinals",
+        "away_team": "Northwestern St Demons",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Lamar Cardinals",
+                                "price": -166
+                            },
+                            {
+                                "name": "Northwestern St Demons",
+                                "price": 138
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "736ad5f27419deda21c650a0d216ac6b",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:00:00Z",
+        "home_team": "Texas A&M-CC Islanders",
+        "away_team": "McNeese Cowboys",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "McNeese Cowboys",
+                                "price": -275
+                            },
+                            {
+                                "name": "Texas A&M-CC Islanders",
+                                "price": 220
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8a157984ad8a0bde28ab4d1d504403b9",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:30:00Z",
+        "home_team": "Alabama A&M Bulldogs",
+        "away_team": "Prairie View Panthers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Alabama A&M Bulldogs",
+                                "price": -108
+                            },
+                            {
+                                "name": "Prairie View Panthers",
+                                "price": -111
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "870bac00013b005d675eba4ff0ef3e9f",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:30:00Z",
+        "home_team": "Alabama St Hornets",
+        "away_team": "Texas Southern Tigers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Alabama St Hornets",
+                                "price": -144
+                            },
+                            {
+                                "name": "Texas Southern Tigers",
+                                "price": 118
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9ee01a616514bcb82c9bcce24f3cdeb9",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:30:00Z",
+        "home_team": "Duke Blue Devils",
+        "away_team": "NC State Wolfpack",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Duke Blue Devils",
+                                "price": -10000
+                            },
+                            {
+                                "name": "NC State Wolfpack",
+                                "price": 2200
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2025-01-26T21:22:28Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:28Z",
+                        "outcomes": [
+                            {
+                                "name": "Duke Blue Devils",
+                                "price": -8000
+                            },
+                            {
+                                "name": "NC State Wolfpack",
+                                "price": 2200
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b1776c40a99b7d7dfeeae57979fda628",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:30:00Z",
+        "home_team": "SE Louisiana Lions",
+        "away_team": "Houston Christian Huskies",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Houston Christian Huskies",
+                                "price": 220
+                            },
+                            {
+                                "name": "SE Louisiana Lions",
+                                "price": -275
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Houston Christian Huskies",
+                                "price": 200
+                            },
+                            {
+                                "name": "SE Louisiana Lions",
+                                "price": -310
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "66550c2f67b0f9b7d8792b31e3b60b51",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:30:00Z",
+        "home_team": "Miss Valley St Delta Devils",
+        "away_team": "Southern Jaguars",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Miss Valley St Delta Devils",
+                                "price": 2000
+                            },
+                            {
+                                "name": "Southern Jaguars",
+                                "price": -7000
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2b939050333cb2a4ea7da406dcb5c816",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T01:30:00Z",
+        "home_team": "Stephen F. Austin Lumberjacks",
+        "away_team": "Texas A&M-Commerce Lions",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Stephen F. Austin Lumberjacks",
+                                "price": -465
+                            },
+                            {
+                                "name": "Texas A&M-Commerce Lions",
+                                "price": 350
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "daf1c4cd79268ec86241743940a12348",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T02:00:00Z",
+        "home_team": "Northeastern Huskies",
+        "away_team": "Towson Tigers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Northeastern Huskies",
+                                "price": -120
+                            },
+                            {
+                                "name": "Towson Tigers",
+                                "price": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Northeastern Huskies",
+                                "price": -123
+                            },
+                            {
+                                "name": "Towson Tigers",
+                                "price": -108
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "82d459c5212533489ab494c6a02481bd",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T03:00:00Z",
+        "home_team": "USC Trojans",
+        "away_team": "UCLA Bruins",
+        "bookmakers": [
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2025-01-26T21:22:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:29Z",
+                        "outcomes": [
+                            {
+                                "name": "UCLA Bruins",
+                                "price": -114
+                            },
+                            {
+                                "name": "USC Trojans",
+                                "price": -107
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "UCLA Bruins",
+                                "price": -111
+                            },
+                            {
+                                "name": "USC Trojans",
+                                "price": -108
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "UCLA Bruins",
+                                "price": -122
+                            },
+                            {
+                                "name": "USC Trojans",
+                                "price": -108
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2025-01-26T21:22:28Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:28Z",
+                        "outcomes": [
+                            {
+                                "name": "UCLA Bruins",
+                                "price": -108
+                            },
+                            {
+                                "name": "USC Trojans",
+                                "price": -112
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4fed4b353a68b96c5030b09ae8038cc0",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-28T03:30:00Z",
+        "home_team": "Arizona Wildcats",
+        "away_team": "Iowa State Cyclones",
+        "bookmakers": [
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2025-01-26T21:22:29Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:29Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Wildcats",
+                                "price": -104
+                            },
+                            {
+                                "name": "Iowa State Cyclones",
+                                "price": -118
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-01-26T21:22:30Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:30Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Wildcats",
+                                "price": -108
+                            },
+                            {
+                                "name": "Iowa State Cyclones",
+                                "price": -111
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2025-01-26T21:21:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:21:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Wildcats",
+                                "price": -108
+                            },
+                            {
+                                "name": "Iowa State Cyclones",
+                                "price": -123
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2025-01-26T21:22:28Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-01-26T21:22:28Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona Wildcats",
+                                "price": -102
+                            },
+                            {
+                                "name": "Iowa State Cyclones",
+                                "price": -118
                             }
                         ]
                     }

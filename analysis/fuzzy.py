@@ -24,7 +24,6 @@ WEIGHTS = pandas.read_csv('exports/%s/weights.csv' % (YEAR))
 def main():
     #fetch()
     create_map()
-    #map()
     return
 
 def map(name):
