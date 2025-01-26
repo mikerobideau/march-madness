@@ -11,20 +11,19 @@ YEAR = 2025
 BOOKS = ['fanduel', 'draftkings']
 API_KEY = 'd7eef29512374ba0023234d1b34b46f3'
 URL = 'https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds?regions=us&oddsFormat=american&apiKey=%s' % (API_KEY)
-TODAY = datetime.today().strftime('%Y-%m-%d')
+
 DIR = 'exports/%s/%s/' % (YEAR, TODAY)
 FILE_PATH = os.path.join(DIR, 'odds.json')
 REPORT_FILE_PATH = os.path.join(DIR, 'report.csv')
 SCORES = analysis.remove_d2_d3_games(pandas.read_csv('exports/2025/scores_detail.csv'))
-TODAYS_GAMES_FILEPATH = os.path.join(DIR, 'todays_games.csv')
-TODAYS_GAMES = pandas.read_csv(TODAYS_GAMES_FILEPATH)
 TEAMS = team_df = pandas.read_csv('exports/%s/teams.csv' % (YEAR))
 WEIGHTS = pandas.read_csv('exports/%s/weights.csv' % (YEAR))
 
 def main():
-    #fetch()
-    report()
-    display_report()
+    fetch()
+    #report()
+    #display_report()
+    print(fuzzy_match('North Carolina Tar Heels', TEAMS))
 
 def fetch():
     print('Fetching odds...')
