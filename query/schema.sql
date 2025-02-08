@@ -10,6 +10,7 @@ CREATE TABLE ncaa_d1_basketball_bracket (
 
 CREATE TABLE ncaa_d1_basketball_score (
 	year INT,
+	date DATE,
     team1 VARCHAR(100),
     team1_score INT,
 	team2 VARCHAR(100),

@@ -20,18 +20,17 @@ RATE_LIMIT = 1
 
 def main():
     year = YEAR
-    year_months = ['%s/11/'%(year - 1), '%s/12/'%(year - 1), '%s/01/'%(year), '%s/02/'%(year), '%s/03/'%(year)]
-    scraper = ncaa_dot_com_scraper(year, year_months)
-    #scraper.scrape()
+    scraper = ncaa_dot_com_scraper(year)
+    last_scraped_date = scraper.get_last_date_scraped(YEAR)
+    scraper.scrape(last_scraped_date)
     #scraper.download_scores(year)
     #scraper.download_todays_games()
     #scraper.scrape_schools()
-    scraper.download_teams(YEAR)
+    #scraper.download_teams(YEAR)
 
 class ncaa_dot_com_scraper():
-    def __init__(self, year, year_months):
+    def __init__(self, year):
         self.year = year
-        self.year_months = year_months
         self.connect()
         self.domain = 'https://www.ncaa.com'
         self.base = 'http://www.ncaa.com/scoreboard/basketball-men/d1'
@@ -92,10 +91,10 @@ class ncaa_dot_com_scraper():
         df = pandas.DataFrame(games)
         df.to_csv(TODAYS_GAMES_FILE_PATH)
 
-    def scrape(self, scores=True, conferences=False, bracket=False, logos=False):
+    def scrape(self, last_scraped_date, scores=True, conferences=False, bracket=False, logos=False):
         print('Starting scraper')
         if scores:
-            self.scrape_scores()
+            self.scrape_scores(last_scraped_date)
         if conferences:
             self.scrape_conferences()
         if bracket:
@@ -119,11 +118,17 @@ class ncaa_dot_com_scraper():
         self.insert_count = 0
         print('Finished scraping conferences')
 
-    def scrape_scores(self):
-        print('Scraping scores')
+    def scrape_scores(self, last_scraped_date):
+        today = pandas.to_datetime('today')
         for date in self.dates:
-            print("Scraping games on %s " % (date))
-            self.scrape_scores_by_date(date)
+            if date <= today:
+                date_str = date.strftime('%Y-%m-%d')
+                if date > last_scraped_date:
+                    print("Scraping games on %s " % (date_str))
+                    date_url_str = date.strftime('%Y/%m/%d')
+                    self.scrape_scores_by_date(date_url_str)
+                else:
+                    print('Already scraped %s' % (date_str))
         print('Committing remaining observations')
         self.db.commit()
         self.insert_count = 0
@@ -141,7 +146,7 @@ class ncaa_dot_com_scraper():
             team2 = teams[1].select('.gamePod-game-team-name')[0].text
             team2_score = teams[1].select('.gamePod-game-team-score')[0].text
             if team1_score != '' and team2_score != '': #if game was played
-                values = [self.year, team1, team1_score, team2, team2_score]
+                values = [self.year, date, team1, team1_score, team2, team2_score]
                 print(values)
                 self.insert_scores(values)
 
@@ -196,15 +201,9 @@ class ncaa_dot_com_scraper():
                     return teams[1].select('.gamePod-game-team-logo-container')[0].select_one('img')['src']
 
     def get_dates(self):
-        #assigns 31 days to every month
-        dates = list()
-        days = [i + 1 for i in range(31)]
-        for year_month in self.year_months:
-            for day in days:
-                if len(str(day)) == 1: #if date has one digit
-                    day = '0%s' % (day) #add leading 0
-                dates.append('%s%s' % (year_month, day))
-        return dates
+        start_date = pandas.Timestamp(f"{YEAR-1}-11-01")
+        end_date = pandas.Timestamp(f"{YEAR}-03-31")
+        return pandas.date_range(start=start_date, end=end_date, freq="D")
 
     def connect(self):
         self.db = mysql.connector.Connect(
@@ -232,8 +231,8 @@ class ncaa_dot_com_scraper():
     def insert_scores(self, values):
         insert = '''
                 INSERT INTO ncaa_d1_basketball_score
-                (year, team1, team1_score, team2, team2_score)
-                VALUES (%s,%s,%s,%s,%s)
+                (year, date, team1, team1_score, team2, team2_score)
+                VALUES (%s,%s,%s,%s,%s,%s)
                 '''
         self.cursor.execute(insert, values)
         self.insert_count += 1
@@ -298,6 +297,16 @@ class ncaa_dot_com_scraper():
         result = self.cursor.execute(insert, values)
         self.db.commit()
         return result
+
+    def get_last_date_scraped(self, year):
+        query = '''
+                SELECT MAX(date) AS date
+                FROM ncaa_d1_basketball_score
+                WHERE year =
+        ''' + str(year)
+        self.cursor.execute(query)
+        df = pandas.DataFrame(self.cursor)
+        return pandas.to_datetime(df[0].iloc[0])
 
 if __name__ == '__main__':
     main()
