@@ -102,6 +102,7 @@ def analyze(odds_api_away_team, odds_api_home_team, book, outcomes):
     else:
         print('Analyzing %s @ %s (%s odds)' % (away_team, home_team, book))
 
+
     result = analysis.analyze(book, SCORES, away_team, away_team_odds, home_team, home_team_odds, home_team, False)
     return result
 

@@ -6,10 +6,10 @@ YEAR = 2025
 
 #ENTER GAME DETAILS HERE
 #-----------------------
-AWAY_TEAM = 'Texas Southern'
-AWAY_TEAM_ODDS = 118
-HOME_TEAM = 'Alabama St.'
-HOME_TEAM_ODDS = -144
+AWAY_TEAM = 'Houston'
+AWAY_TEAM_ODDS = -100
+HOME_TEAM = 'Kansas'
+HOME_TEAM_ODDS = -100
 HOME_COURT_ADVANTAGE = 4
 #-----------------------
 
@@ -45,7 +45,7 @@ def predict(score, game):
     for i, game1 in team1_games.iterrows():
         for j, game2 in team2_games.iterrows():
             spread = simulate_spread(game1, game2, home_team)
-            #total wins & ignore ties
+            #determine winner (ignore ties)
             if spread < 0:
                 team1_wins += 1
                 spreads.append(spread)
