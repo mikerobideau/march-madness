@@ -1,0 +1,541 @@
+{
+    "timestamp": "2024-02-09T11:55:39Z",
+    "previous_timestamp": "2024-02-09T11:50:39Z",
+    "next_timestamp": "2024-02-09T12:00:39Z",
+    "data": [
+        {
+            "id": "ba1c9f456bd7c4d6b3cb3a073d4a0051",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-10T00:00:00Z",
+            "home_team": "VCU Rams",
+            "away_team": "Dayton Flyers",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-09T11:55:31Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:55:31Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dayton Flyers",
+                                    "price": -120
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-09T11:55:32Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:55:32Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dayton Flyers",
+                                    "price": -120
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-09T11:53:55Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:53:55Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dayton Flyers",
+                                    "price": -118
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": -104
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-09T11:54:07Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:07Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dayton Flyers",
+                                    "price": -118
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": -104
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-09T11:54:07Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:07Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dayton Flyers",
+                                    "price": -120
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-09T11:51:36Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:51:36Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dayton Flyers",
+                                    "price": -120
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-09T11:54:21Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:21Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dayton Flyers",
+                                    "price": -120
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-09T11:54:15Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:15Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dayton Flyers",
+                                    "price": -121
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 101
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7656875319012fdc79beff165dd73cbd",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-10T01:00:00Z",
+            "home_team": "Nevada Wolf Pack",
+            "away_team": "San Diego St Aztecs",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-09T11:55:31Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:55:31Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -126
+                                },
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 105
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-09T11:55:32Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:55:32Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -135
+                                },
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 114
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-09T11:53:55Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:53:55Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -127
+                                },
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 104
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-09T11:54:07Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:07Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -127
+                                },
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 104
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-09T11:54:07Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:07Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -140
+                                },
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 115
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-09T11:51:36Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:51:36Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -135
+                                },
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 115
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-09T11:54:21Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:21Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -135
+                                },
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 115
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-09T11:54:15Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:15Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -131
+                                },
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 111
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cea5e0fa97d054de02b43f87d6db15e8",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-10T02:30:00Z",
+            "home_team": "Colorado St Rams",
+            "away_team": "San Jos\u00e9 St Spartans",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-09T11:55:31Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:55:31Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -2500
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 1100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-09T11:55:32Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:55:32Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -1800
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-09T11:53:55Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:53:55Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -3335
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 1150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-09T11:54:07Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:07Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -3335
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 1150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-09T11:51:36Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:51:36Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -2000
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 1050
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-09T11:54:21Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:21Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -1800
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 850
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-09T11:54:07Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:07Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -1600
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-09T11:54:15Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-09T11:54:15Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -1493
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 870
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

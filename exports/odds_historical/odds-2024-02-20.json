@@ -1,0 +1,4331 @@
+{
+    "timestamp": "2024-02-20T11:55:38Z",
+    "previous_timestamp": "2024-02-20T11:50:39Z",
+    "next_timestamp": "2024-02-20T12:00:39Z",
+    "data": [
+        {
+            "id": "5558ededf839bc7a9d0ee6831b1ab4c3",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-20T23:30:00Z",
+            "home_team": "Villanova Wildcats",
+            "away_team": "Butler Bulldogs",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Butler Bulldogs",
+                                    "price": 225
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -278
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Butler Bulldogs",
+                                    "price": 220
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -270
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Butler Bulldogs",
+                                    "price": 215
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -265
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Butler Bulldogs",
+                                    "price": 228
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -285
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Butler Bulldogs",
+                                    "price": 220
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Butler Bulldogs",
+                                    "price": 215
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Butler Bulldogs",
+                                    "price": 215
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Butler Bulldogs",
+                                    "price": 218
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -265
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "939080d0970e6f19b9420d117bbc5515",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Toledo Rockets",
+            "away_team": "Akron Zips",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Akron Zips",
+                                    "price": 116
+                                },
+                                {
+                                    "name": "Toledo Rockets",
+                                    "price": -140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Akron Zips",
+                                    "price": 115
+                                },
+                                {
+                                    "name": "Toledo Rockets",
+                                    "price": -135
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Akron Zips",
+                                    "price": 115
+                                },
+                                {
+                                    "name": "Toledo Rockets",
+                                    "price": -135
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Akron Zips",
+                                    "price": 114
+                                },
+                                {
+                                    "name": "Toledo Rockets",
+                                    "price": -135
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Akron Zips",
+                                    "price": 112
+                                },
+                                {
+                                    "name": "Toledo Rockets",
+                                    "price": -136
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Akron Zips",
+                                    "price": 112
+                                },
+                                {
+                                    "name": "Toledo Rockets",
+                                    "price": -136
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Akron Zips",
+                                    "price": 110
+                                },
+                                {
+                                    "name": "Toledo Rockets",
+                                    "price": -130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Akron Zips",
+                                    "price": 114
+                                },
+                                {
+                                    "name": "Toledo Rockets",
+                                    "price": -134
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bf3a2c9eece76754c38e9319d835ae8b",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Texas A&M Aggies",
+            "away_team": "Arkansas Razorbacks",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Arkansas Razorbacks",
+                                    "price": 425
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -575
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Arkansas Razorbacks",
+                                    "price": 425
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Arkansas Razorbacks",
+                                    "price": 420
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -580
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Arkansas Razorbacks",
+                                    "price": 430
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Arkansas Razorbacks",
+                                    "price": 440
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -625
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Arkansas Razorbacks",
+                                    "price": 440
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -625
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Arkansas Razorbacks",
+                                    "price": 425
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -575
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Arkansas Razorbacks",
+                                    "price": 415
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -549
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "868aecfc4a9f3e7b8688b87698668e79",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Florida St Seminoles",
+            "away_team": "Boston College Eagles",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": 160
+                                },
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -192
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": 155
+                                },
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -180
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": 155
+                                },
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -192
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": 162
+                                },
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -195
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": 150
+                                },
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -186
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": 165
+                                },
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": 150
+                                },
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -186
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": 157
+                                },
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -187
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "718e5ba24487ab9a2f25cd176a7fea77",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Central Michigan Chippewas",
+            "away_team": "Bowling Green Falcons",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": 104
+                                },
+                                {
+                                    "name": "Central Michigan Chippewas",
+                                    "price": -125
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": 110
+                                },
+                                {
+                                    "name": "Central Michigan Chippewas",
+                                    "price": -130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": 105
+                                },
+                                {
+                                    "name": "Central Michigan Chippewas",
+                                    "price": -125
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": 110
+                                },
+                                {
+                                    "name": "Central Michigan Chippewas",
+                                    "price": -130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": 104
+                                },
+                                {
+                                    "name": "Central Michigan Chippewas",
+                                    "price": -127
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": 104
+                                },
+                                {
+                                    "name": "Central Michigan Chippewas",
+                                    "price": -127
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": 110
+                                },
+                                {
+                                    "name": "Central Michigan Chippewas",
+                                    "price": -130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": 106
+                                },
+                                {
+                                    "name": "Central Michigan Chippewas",
+                                    "price": -126
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "70861c156f63ce9b353e14ad25b07433",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Buffalo Bulls",
+            "away_team": "Eastern Michigan Eagles",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": -122
+                                },
+                                {
+                                    "name": "Eastern Michigan Eagles",
+                                    "price": 102
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": -125
+                                },
+                                {
+                                    "name": "Eastern Michigan Eagles",
+                                    "price": 105
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": -130
+                                },
+                                {
+                                    "name": "Eastern Michigan Eagles",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": -130
+                                },
+                                {
+                                    "name": "Eastern Michigan Eagles",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": -136
+                                },
+                                {
+                                    "name": "Eastern Michigan Eagles",
+                                    "price": 112
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": -136
+                                },
+                                {
+                                    "name": "Eastern Michigan Eagles",
+                                    "price": 112
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": -130
+                                },
+                                {
+                                    "name": "Eastern Michigan Eagles",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7fa5521e03f17e23dca2dc021180ca71",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Davidson Wildcats",
+            "away_team": "Fordham Rams",
+            "bookmakers": [
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Davidson Wildcats",
+                                    "price": -285
+                                },
+                                {
+                                    "name": "Fordham Rams",
+                                    "price": 235
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Davidson Wildcats",
+                                    "price": -275
+                                },
+                                {
+                                    "name": "Fordham Rams",
+                                    "price": 220
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Davidson Wildcats",
+                                    "price": -278
+                                },
+                                {
+                                    "name": "Fordham Rams",
+                                    "price": 222
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Davidson Wildcats",
+                                    "price": -285
+                                },
+                                {
+                                    "name": "Fordham Rams",
+                                    "price": 230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Davidson Wildcats",
+                                    "price": -265
+                                },
+                                {
+                                    "name": "Fordham Rams",
+                                    "price": 210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Davidson Wildcats",
+                                    "price": -265
+                                },
+                                {
+                                    "name": "Fordham Rams",
+                                    "price": 210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Davidson Wildcats",
+                                    "price": -290
+                                },
+                                {
+                                    "name": "Fordham Rams",
+                                    "price": 230
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4f14cf094294cdbc1b3ccb381f6fe99c",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Duquesne Dukes",
+            "away_team": "Saint Louis Billikens",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -385
+                                },
+                                {
+                                    "name": "Saint Louis Billikens",
+                                    "price": 300
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -420
+                                },
+                                {
+                                    "name": "Saint Louis Billikens",
+                                    "price": 315
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -420
+                                },
+                                {
+                                    "name": "Saint Louis Billikens",
+                                    "price": 320
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -410
+                                },
+                                {
+                                    "name": "Saint Louis Billikens",
+                                    "price": 320
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -375
+                                },
+                                {
+                                    "name": "Saint Louis Billikens",
+                                    "price": 290
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -375
+                                },
+                                {
+                                    "name": "Saint Louis Billikens",
+                                    "price": 290
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -400
+                                },
+                                {
+                                    "name": "Saint Louis Billikens",
+                                    "price": 310
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -400
+                                },
+                                {
+                                    "name": "Saint Louis Billikens",
+                                    "price": 315
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1edbec8434dbe33d0ad1c34a191ada07",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Michigan St Spartans",
+            "away_team": "Iowa Hawkeyes",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": 390
+                                },
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -520
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": 390
+                                },
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": 365
+                                },
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -490
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": 400
+                                },
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": 340
+                                },
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -455
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": 340
+                                },
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -455
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": 400
+                                },
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": 385
+                                },
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -500
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3e99111a59bd583c75f111d3ce7be319",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Ohio Bobcats",
+            "away_team": "Kent State Golden Flashes",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kent State Golden Flashes",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Ohio Bobcats",
+                                    "price": -170
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kent State Golden Flashes",
+                                    "price": 145
+                                },
+                                {
+                                    "name": "Ohio Bobcats",
+                                    "price": -170
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kent State Golden Flashes",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Ohio Bobcats",
+                                    "price": -165
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kent State Golden Flashes",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Ohio Bobcats",
+                                    "price": -170
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kent State Golden Flashes",
+                                    "price": 130
+                                },
+                                {
+                                    "name": "Ohio Bobcats",
+                                    "price": -159
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kent State Golden Flashes",
+                                    "price": 130
+                                },
+                                {
+                                    "name": "Ohio Bobcats",
+                                    "price": -159
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kent State Golden Flashes",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Ohio Bobcats",
+                                    "price": -170
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kent State Golden Flashes",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Ohio Bobcats",
+                                    "price": -165
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8012c5b16409133f6ba1970a2647b289",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Massachusetts Minutemen",
+            "away_team": "VCU Rams",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Massachusetts Minutemen",
+                                    "price": -170
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Massachusetts Minutemen",
+                                    "price": -160
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 135
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Massachusetts Minutemen",
+                                    "price": -175
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Massachusetts Minutemen",
+                                    "price": -180
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Massachusetts Minutemen",
+                                    "price": -175
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Massachusetts Minutemen",
+                                    "price": -175
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Massachusetts Minutemen",
+                                    "price": -175
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 145
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Massachusetts Minutemen",
+                                    "price": -171
+                                },
+                                {
+                                    "name": "VCU Rams",
+                                    "price": 144
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ebe12726348c8ef2d664e5a5e9825532",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Western Michigan Broncos",
+            "away_team": "Miami (OH) RedHawks",
+            "bookmakers": [
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Miami (OH) RedHawks",
+                                    "price": -135
+                                },
+                                {
+                                    "name": "Western Michigan Broncos",
+                                    "price": 115
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Miami (OH) RedHawks",
+                                    "price": -128
+                                },
+                                {
+                                    "name": "Western Michigan Broncos",
+                                    "price": 106
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Miami (OH) RedHawks",
+                                    "price": -140
+                                },
+                                {
+                                    "name": "Western Michigan Broncos",
+                                    "price": 118
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Miami (OH) RedHawks",
+                                    "price": -135
+                                },
+                                {
+                                    "name": "Western Michigan Broncos",
+                                    "price": 114
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Miami (OH) RedHawks",
+                                    "price": -148
+                                },
+                                {
+                                    "name": "Western Michigan Broncos",
+                                    "price": 120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Miami (OH) RedHawks",
+                                    "price": -148
+                                },
+                                {
+                                    "name": "Western Michigan Broncos",
+                                    "price": 120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Miami (OH) RedHawks",
+                                    "price": -140
+                                },
+                                {
+                                    "name": "Western Michigan Broncos",
+                                    "price": 115
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Miami (OH) RedHawks",
+                                    "price": -139
+                                },
+                                {
+                                    "name": "Western Michigan Broncos",
+                                    "price": 117
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f68a4bdb90ee0b5167a83fb768e8e1fe",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "Missouri Tigers",
+            "away_team": "Tennessee Volunteers",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri Tigers",
+                                    "price": 550
+                                },
+                                {
+                                    "name": "Tennessee Volunteers",
+                                    "price": -820
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri Tigers",
+                                    "price": 525
+                                },
+                                {
+                                    "name": "Tennessee Volunteers",
+                                    "price": -800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri Tigers",
+                                    "price": 550
+                                },
+                                {
+                                    "name": "Tennessee Volunteers",
+                                    "price": -800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri Tigers",
+                                    "price": 550
+                                },
+                                {
+                                    "name": "Tennessee Volunteers",
+                                    "price": -800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri Tigers",
+                                    "price": 600
+                                },
+                                {
+                                    "name": "Tennessee Volunteers",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri Tigers",
+                                    "price": 600
+                                },
+                                {
+                                    "name": "Tennessee Volunteers",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri Tigers",
+                                    "price": 550
+                                },
+                                {
+                                    "name": "Tennessee Volunteers",
+                                    "price": -800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri Tigers",
+                                    "price": 520
+                                },
+                                {
+                                    "name": "Tennessee Volunteers",
+                                    "price": -699
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3dfe2a9fa3d0dbfabc526901d934d0f2",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "NC State Wolfpack",
+            "away_team": "Syracuse Orange",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "NC State Wolfpack",
+                                    "price": -265
+                                },
+                                {
+                                    "name": "Syracuse Orange",
+                                    "price": 215
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "NC State Wolfpack",
+                                    "price": -260
+                                },
+                                {
+                                    "name": "Syracuse Orange",
+                                    "price": 215
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "NC State Wolfpack",
+                                    "price": -230
+                                },
+                                {
+                                    "name": "Syracuse Orange",
+                                    "price": 188
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "NC State Wolfpack",
+                                    "price": -278
+                                },
+                                {
+                                    "name": "Syracuse Orange",
+                                    "price": 222
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "NC State Wolfpack",
+                                    "price": -260
+                                },
+                                {
+                                    "name": "Syracuse Orange",
+                                    "price": 210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "NC State Wolfpack",
+                                    "price": -265
+                                },
+                                {
+                                    "name": "Syracuse Orange",
+                                    "price": 210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "NC State Wolfpack",
+                                    "price": -265
+                                },
+                                {
+                                    "name": "Syracuse Orange",
+                                    "price": 210
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b98c0fee2381545aa714e261a98c30cc",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T00:00:00Z",
+            "home_team": "West Virginia Mountaineers",
+            "away_team": "UCF Knights",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -155
+                                },
+                                {
+                                    "name": "West Virginia Mountaineers",
+                                    "price": 130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -150
+                                },
+                                {
+                                    "name": "West Virginia Mountaineers",
+                                    "price": 130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -146
+                                },
+                                {
+                                    "name": "West Virginia Mountaineers",
+                                    "price": 122
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -165
+                                },
+                                {
+                                    "name": "West Virginia Mountaineers",
+                                    "price": 140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -159
+                                },
+                                {
+                                    "name": "West Virginia Mountaineers",
+                                    "price": 130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -159
+                                },
+                                {
+                                    "name": "West Virginia Mountaineers",
+                                    "price": 130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -160
+                                },
+                                {
+                                    "name": "West Virginia Mountaineers",
+                                    "price": 130
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -157
+                                },
+                                {
+                                    "name": "West Virginia Mountaineers",
+                                    "price": 133
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4f77294ecea26778bb4e5f38e6fcbff1",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T01:00:00Z",
+            "home_team": "Northern Illinois Huskies",
+            "away_team": "Ball State Cardinals",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ball State Cardinals",
+                                    "price": -106
+                                },
+                                {
+                                    "name": "Northern Illinois Huskies",
+                                    "price": -113
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ball State Cardinals",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Northern Illinois Huskies",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ball State Cardinals",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Northern Illinois Huskies",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ball State Cardinals",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Northern Illinois Huskies",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ball State Cardinals",
+                                    "price": -104
+                                },
+                                {
+                                    "name": "Northern Illinois Huskies",
+                                    "price": -118
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ball State Cardinals",
+                                    "price": -104
+                                },
+                                {
+                                    "name": "Northern Illinois Huskies",
+                                    "price": -118
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ball State Cardinals",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Northern Illinois Huskies",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ball State Cardinals",
+                                    "price": 101
+                                },
+                                {
+                                    "name": "Northern Illinois Huskies",
+                                    "price": -121
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ec8ba20355868abfe6140dc0a89f2ffc",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T01:30:00Z",
+            "home_team": "Creighton Bluejays",
+            "away_team": "UConn Huskies",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Creighton Bluejays",
+                                    "price": 124
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -148
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Creighton Bluejays",
+                                    "price": 120
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Creighton Bluejays",
+                                    "price": 122
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -146
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Creighton Bluejays",
+                                    "price": 130
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -155
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Creighton Bluejays",
+                                    "price": 128
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -155
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Creighton Bluejays",
+                                    "price": 128
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -155
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Creighton Bluejays",
+                                    "price": 125
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Creighton Bluejays",
+                                    "price": 125
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -147
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8e587bd0cf7e75f3efca02da5e3ede5c",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T02:00:00Z",
+            "home_team": "BYU Cougars",
+            "away_team": "Baylor Bears",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Baylor Bears",
+                                    "price": 164
+                                },
+                                {
+                                    "name": "BYU Cougars",
+                                    "price": -198
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Baylor Bears",
+                                    "price": 165
+                                },
+                                {
+                                    "name": "BYU Cougars",
+                                    "price": -195
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Baylor Bears",
+                                    "price": 146
+                                },
+                                {
+                                    "name": "BYU Cougars",
+                                    "price": -176
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Baylor Bears",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "BYU Cougars",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Baylor Bears",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "BYU Cougars",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Baylor Bears",
+                                    "price": 165
+                                },
+                                {
+                                    "name": "BYU Cougars",
+                                    "price": -200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Baylor Bears",
+                                    "price": 157
+                                },
+                                {
+                                    "name": "BYU Cougars",
+                                    "price": -187
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ea83a5c82ee820a47f86e75ae903bb5f",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T02:00:00Z",
+            "home_team": "Wisconsin Badgers",
+            "away_team": "Maryland Terrapins",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 250
+                                },
+                                {
+                                    "name": "Wisconsin Badgers",
+                                    "price": -310
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 250
+                                },
+                                {
+                                    "name": "Wisconsin Badgers",
+                                    "price": -300
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 250
+                                },
+                                {
+                                    "name": "Wisconsin Badgers",
+                                    "price": -315
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 250
+                                },
+                                {
+                                    "name": "Wisconsin Badgers",
+                                    "price": -320
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 255
+                                },
+                                {
+                                    "name": "Wisconsin Badgers",
+                                    "price": -335
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 255
+                                },
+                                {
+                                    "name": "Wisconsin Badgers",
+                                    "price": -335
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 250
+                                },
+                                {
+                                    "name": "Wisconsin Badgers",
+                                    "price": -325
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 245
+                                },
+                                {
+                                    "name": "Wisconsin Badgers",
+                                    "price": -300
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "da64daa3839057615f48062355403ef1",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T02:00:00Z",
+            "home_team": "Wake Forest Demon Deacons",
+            "away_team": "Pittsburgh Panthers",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pittsburgh Panthers",
+                                    "price": 230
+                                },
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -285
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pittsburgh Panthers",
+                                    "price": 230
+                                },
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -280
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pittsburgh Panthers",
+                                    "price": 210
+                                },
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -260
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pittsburgh Panthers",
+                                    "price": 225
+                                },
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -286
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pittsburgh Panthers",
+                                    "price": 225
+                                },
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -286
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pittsburgh Panthers",
+                                    "price": 230
+                                },
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -290
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pittsburgh Panthers",
+                                    "price": 225
+                                },
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6f64c159f63fc92215d312482609f557",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T02:00:00Z",
+            "home_team": "Utah State Aggies",
+            "away_team": "San Diego St Aztecs",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 120
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": -142
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 125
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": -145
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 118
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": -142
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 118
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": -140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 120
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": -148
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 120
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": -148
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 115
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": -140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": 127
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": -150
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8be04b02b6ae9b086ae778834fd747c9",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T02:00:00Z",
+            "home_team": "Texas Tech Red Raiders",
+            "away_team": "TCU Horned Frogs",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": 200
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -245
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": 200
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -240
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": 205
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": 188
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -235
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -235
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": 190
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -240
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": 195
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -235
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2161da11986a3cc59eaf849ab17d5685",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T03:30:00Z",
+            "home_team": "Boise State Broncos",
+            "away_team": "San Jos\u00e9 St Spartans",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boise State Broncos",
+                                    "price": -1600
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boise State Broncos",
+                                    "price": -1800
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 850
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boise State Broncos",
+                                    "price": -1600
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boise State Broncos",
+                                    "price": -2100
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boise State Broncos",
+                                    "price": -2000
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boise State Broncos",
+                                    "price": -2000
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boise State Broncos",
+                                    "price": -1493
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 870
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boise State Broncos",
+                                    "price": -1500
+                                },
+                                {
+                                    "name": "San Jos\u00e9 St Spartans",
+                                    "price": 850
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c83eccc6583f8739e8ec0096f56d53b6",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T04:00:00Z",
+            "home_team": "Nevada Wolf Pack",
+            "away_team": "Wyoming Cowboys",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -1100
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 700
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -1200
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 700
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-02-20T11:53:53Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:53Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -1100
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 700
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -1400
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -1250
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 700
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -1250
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 700
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -1099
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 710
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -1099
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 700
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b528175d36f14384e86b7ef657f7eb45",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-02-21T04:00:00Z",
+            "home_team": "Saint Mary's Gaels",
+            "away_team": "San Francisco Dons",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Saint Mary's Gaels",
+                                    "price": -310
+                                },
+                                {
+                                    "name": "San Francisco Dons",
+                                    "price": 250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-02-20T11:54:37Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:37Z",
+                            "outcomes": [
+                                {
+                                    "name": "Saint Mary's Gaels",
+                                    "price": -310
+                                },
+                                {
+                                    "name": "San Francisco Dons",
+                                    "price": 255
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-02-20T11:54:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Saint Mary's Gaels",
+                                    "price": -285
+                                },
+                                {
+                                    "name": "San Francisco Dons",
+                                    "price": 230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-02-20T11:54:20Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:20Z",
+                            "outcomes": [
+                                {
+                                    "name": "Saint Mary's Gaels",
+                                    "price": -315
+                                },
+                                {
+                                    "name": "San Francisco Dons",
+                                    "price": 245
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-02-20T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Saint Mary's Gaels",
+                                    "price": -315
+                                },
+                                {
+                                    "name": "San Francisco Dons",
+                                    "price": 245
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-02-20T11:54:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Saint Mary's Gaels",
+                                    "price": -300
+                                },
+                                {
+                                    "name": "San Francisco Dons",
+                                    "price": 245
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2024-02-20T11:54:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-02-20T11:54:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Saint Mary's Gaels",
+                                    "price": -300
+                                },
+                                {
+                                    "name": "San Francisco Dons",
+                                    "price": 240
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

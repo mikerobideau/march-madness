@@ -20,7 +20,6 @@ MATCH_ANY_WORDS = ['Saint', 'St.', 'State', ]
 WEIGHTS = pandas.read_csv('exports/%s/weights.csv' % (YEAR))
 
 def main():
-    #fetch()
     create_map()
     return
 

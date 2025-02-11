@@ -1,0 +1,572 @@
+{
+    "timestamp": "2024-01-01T11:55:38Z",
+    "previous_timestamp": "2024-01-01T11:50:38Z",
+    "next_timestamp": "2024-01-01T12:00:38Z",
+    "data": [
+        {
+            "id": "ebc3ce02612ece204a3c9dbe77dbce46",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-01-01T17:00:00Z",
+            "home_team": "Drexel Dragons",
+            "away_team": "Hampton Pirates",
+            "bookmakers": [
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-01-01T11:54:42Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:54:42Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -1000
+                                },
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 650
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-01-01T11:54:42Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:54:42Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -1600
+                                },
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-01-01T11:51:36Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:51:36Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -1600
+                                },
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 860
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "superbook",
+                    "title": "SuperBook",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -1200
+                                },
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 700
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-01-01T11:53:58Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:58Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -1667
+                                },
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 850
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -1667
+                                },
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 850
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -1000
+                                },
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 660
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "849c3c0cbfcc06f6956ae481bd16e0af",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-01-01T19:00:00Z",
+            "home_team": "Texas Tech Red Raiders",
+            "away_team": "North Alabama Lions",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-01-01T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Alabama Lions",
+                                    "price": 1100
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -3000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-01-01T11:54:42Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:54:42Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Alabama Lions",
+                                    "price": 1150
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -2400
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-01-01T11:51:36Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:51:36Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Alabama Lions",
+                                    "price": 1200
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -3000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "superbook",
+                    "title": "SuperBook",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Alabama Lions",
+                                    "price": 1200
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -2999
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-01-01T11:53:58Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:58Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Alabama Lions",
+                                    "price": 1400
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -5000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Alabama Lions",
+                                    "price": 1400
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -5000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Alabama Lions",
+                                    "price": 1175
+                                },
+                                {
+                                    "name": "Texas Tech Red Raiders",
+                                    "price": -2500
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c5cd936cd9a3c88ee9cb951f30285729",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-01-01T19:00:00Z",
+            "home_team": "Texas Longhorns",
+            "away_team": "UT-Arlington Mavericks",
+            "bookmakers": [
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-01-01T11:54:42Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:54:42Z",
+                            "outcomes": [
+                                {
+                                    "name": "Texas Longhorns",
+                                    "price": -2400
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 1150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2024-01-01T11:54:42Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:54:42Z",
+                            "outcomes": [
+                                {
+                                    "name": "Texas Longhorns",
+                                    "price": -3500
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 1125
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-01-01T11:51:36Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:51:36Z",
+                            "outcomes": [
+                                {
+                                    "name": "Texas Longhorns",
+                                    "price": -4000
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 1400
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "superbook",
+                    "title": "SuperBook",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "Texas Longhorns",
+                                    "price": -2999
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 1200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2024-01-01T11:53:58Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:58Z",
+                            "outcomes": [
+                                {
+                                    "name": "Texas Longhorns",
+                                    "price": -10000
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 1600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "Texas Longhorns",
+                                    "price": -10000
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 1600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "Texas Longhorns",
+                                    "price": -2500
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 1175
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a39a13f6e89eec4ab97d58aceb6f8fa1",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-01-01T21:00:00Z",
+            "home_team": "TCU Horned Frogs",
+            "away_team": "Texas A&M-Commerce Lions",
+            "bookmakers": [
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-01-01T11:54:42Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:54:42Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": -15000
+                                },
+                                {
+                                    "name": "Texas A&M-Commerce Lions",
+                                    "price": 2200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-01-01T11:51:36Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:51:36Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": -10000
+                                },
+                                {
+                                    "name": "Texas A&M-Commerce Lions",
+                                    "price": 2400
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "superbook",
+                    "title": "SuperBook",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": -10000
+                                },
+                                {
+                                    "name": "Texas A&M-Commerce Lions",
+                                    "price": 2000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "wynnbet",
+                    "title": "WynnBET",
+                    "last_update": "2024-01-01T11:53:57Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-01-01T11:53:57Z",
+                            "outcomes": [
+                                {
+                                    "name": "TCU Horned Frogs",
+                                    "price": -5000
+                                },
+                                {
+                                    "name": "Texas A&M-Commerce Lions",
+                                    "price": 1600
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

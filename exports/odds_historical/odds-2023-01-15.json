@@ -1,0 +1,2762 @@
+{
+    "timestamp": "2023-01-15T11:55:38Z",
+    "previous_timestamp": "2023-01-15T11:50:38Z",
+    "next_timestamp": "2023-01-15T12:00:38Z",
+    "data": [
+        {
+            "id": "b7ad3291aeac31ed1b015ed2cdb91dcd",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T17:00:00Z",
+            "home_team": "Canisius Golden Griffins",
+            "away_team": "Siena Saints",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -215
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 190
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 175
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 184
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 180
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 180
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 180
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 180
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 180
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 188
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -278
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 206
+                                },
+                                {
+                                    "name": "Siena Saints",
+                                    "price": -263
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bbfd061d02a8918332078512612ba57c",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T17:00:00Z",
+            "home_team": "Niagara Purple Eagles",
+            "away_team": "Marist Red Foxes",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -215
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 180
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -220
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 195
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -240
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 175
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 185
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 170
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": 186
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": -232
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "e95f31c909c04f7309b554bc66de4668",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T17:00:00Z",
+            "home_team": "Xavier Musketeers",
+            "away_team": "Marquette Golden Eagles",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -165
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 145
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -170
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -170
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": 141
+                                },
+                                {
+                                    "name": "Xavier Musketeers",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a59ef6a5dd72c55459be2b635a0b59a2",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T17:00:00Z",
+            "home_team": "Michigan Wolverines",
+            "away_team": "Northwestern Wildcats",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -190
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 160
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -190
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 160
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -190
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 160
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -205
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 165
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -205
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 165
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -205
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 165
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -205
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 165
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -205
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 165
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -213
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan Wolverines",
+                                    "price": -200
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": 161
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "33597aee98a160a3f28b1b5e666a3601",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T17:00:00Z",
+            "home_team": "UConn Huskies",
+            "away_team": "St. John's Red Storm",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1099
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": 626
+                                },
+                                {
+                                    "name": "UConn Huskies",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "05452a0a434d37f6620e96b5fb1c4b8c",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T18:00:00Z",
+            "home_team": "East Carolina Pirates",
+            "away_team": "South Florida Bulls",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -130
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -130
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -125
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 105
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -130
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -137
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 112
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -137
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 112
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -137
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 112
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -137
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 112
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -137
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 112
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -143
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 105
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "East Carolina Pirates",
+                                    "price": -133
+                                },
+                                {
+                                    "name": "South Florida Bulls",
+                                    "price": 109
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "096a411ff8b329f9b987892223bd2bee",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T18:00:00Z",
+            "home_team": "Iona Gaels",
+            "away_team": "Rider Broncs",
+            "bookmakers": [
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iona Gaels",
+                                    "price": -835
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 540
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iona Gaels",
+                                    "price": -835
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 540
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iona Gaels",
+                                    "price": -750
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iona Gaels",
+                                    "price": -835
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 540
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iona Gaels",
+                                    "price": -833
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 425
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iona Gaels",
+                                    "price": -769
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 503
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "74574da03361497826b32314dd069bfe",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T19:00:00Z",
+            "home_team": "Saint Peter's Peacocks",
+            "away_team": "Fairfield Stags",
+            "bookmakers": [
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": 123
+                                },
+                                {
+                                    "name": "Saint Peter's Peacocks",
+                                    "price": -150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": 123
+                                },
+                                {
+                                    "name": "Saint Peter's Peacocks",
+                                    "price": -150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": 120
+                                },
+                                {
+                                    "name": "Saint Peter's Peacocks",
+                                    "price": -140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": 123
+                                },
+                                {
+                                    "name": "Saint Peter's Peacocks",
+                                    "price": -150
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": 110
+                                },
+                                {
+                                    "name": "Saint Peter's Peacocks",
+                                    "price": -149
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": 116
+                                },
+                                {
+                                    "name": "Saint Peter's Peacocks",
+                                    "price": -142
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ae020a51c119895dcac387a5d6a1b2c6",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T19:00:00Z",
+            "home_team": "Mt. St. Mary's Mountaineers",
+            "away_team": "Quinnipiac Bobcats",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 210
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 210
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -260
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 210
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -260
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 210
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 210
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 215
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 215
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 215
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 215
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 215
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 188
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -278
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 201
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -256
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d181ac9526b46de11af18253dd3300d5",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T19:15:00Z",
+            "home_team": "Rutgers Scarlet Knights",
+            "away_team": "Ohio State Buckeyes",
+            "bookmakers": [
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": 145
+                                },
+                                {
+                                    "name": "Rutgers Scarlet Knights",
+                                    "price": -170
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": 143
+                                },
+                                {
+                                    "name": "Rutgers Scarlet Knights",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": 143
+                                },
+                                {
+                                    "name": "Rutgers Scarlet Knights",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": 143
+                                },
+                                {
+                                    "name": "Rutgers Scarlet Knights",
+                                    "price": -175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": 140
+                                },
+                                {
+                                    "name": "Rutgers Scarlet Knights",
+                                    "price": -200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": 144
+                                },
+                                {
+                                    "name": "Rutgers Scarlet Knights",
+                                    "price": -178
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8e641d03938d686ba6a9110e904b7cd5",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T20:00:00Z",
+            "home_team": "Missouri St Bears",
+            "away_team": "Indiana St Sycamores",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": -105
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -115
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": -110
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": -110
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": -110
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": -110
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": -110
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": -118
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -118
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Indiana St Sycamores",
+                                    "price": -109
+                                },
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -111
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8ea0f7f4a2d8f3fa0a88fe4a19aca81b",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T20:00:00Z",
+            "home_team": "Temple Owls",
+            "away_team": "Memphis Tigers",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -205
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -210
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -210
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -210
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 180
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 180
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 180
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 180
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 180
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -250
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 170
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -232
+                                },
+                                {
+                                    "name": "Temple Owls",
+                                    "price": 185
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f63c84667d8825833453881056ba6a8d",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2023-01-15T21:30:00Z",
+            "home_team": "Iowa Hawkeyes",
+            "away_team": "Maryland Terrapins",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -250
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "William Hill (US)",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -260
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "pointsbetus",
+                    "title": "PointsBet (US)",
+                    "last_update": "2023-01-15T11:54:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -250
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 210
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "bovada",
+                    "title": "Bovada",
+                    "last_update": "2023-01-15T11:51:12Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:51:12Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -260
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 215
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "barstool",
+                    "title": "Barstool Sportsbook",
+                    "last_update": "2023-01-15T11:53:39Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:39Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -286
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -286
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "unibet_us",
+                    "title": "Unibet",
+                    "last_update": "2023-01-15T11:54:26Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:54:26Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -286
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "sugarhouse",
+                    "title": "SugarHouse",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -286
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "twinspires",
+                    "title": "TwinSpires",
+                    "last_update": "2023-01-15T11:52:10Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:10Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -286
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 225
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "foxbet",
+                    "title": "FOX Bet",
+                    "last_update": "2023-01-15T11:52:09Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:52:09Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -303
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 205
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "mybookieag",
+                    "title": "MyBookie.ag",
+                    "last_update": "2023-01-15T11:53:41Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2023-01-15T11:53:41Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -277
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": 219
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

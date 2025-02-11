@@ -18,7 +18,17 @@ def update_ranking(year):
     score_detail = get_score_detail(score, weights)
     print("Scores detail complete")
     score_detail.to_csv("exports/%s/scores_detail.csv" % (year))
-    print_ranking(get_ranking(weights), n=200, strategy='seed')
+    print_ranking(get_ranking(weights), n=100, strategy='rank')
+
+def gen_training_data(year, max_date):
+    score = pandas.read_csv('exports/%s/score.csv' % (year))
+    if max_date: #useful for separating data into training and test data
+        score = score[pandas.to_datetime(score['date']) <= pandas.to_datetime(max_date)]
+    weights = get_weights(score)
+    print("Team weights complete")
+    score_detail = get_score_detail(score, weights)
+    score_detail.to_csv("exports/%s/scores_detail_training.csv" % (year))
+    print_ranking(get_ranking(weights), n=100, strategy='rank')
 
 def get_score_detail(score, weights):
     score_detail = transform_to_team_opponent(score)
@@ -31,15 +41,17 @@ def get_score_detail(score, weights):
     return score_detail
 
 def transform_to_team_opponent(scores):
-    team1_rows = scores[['team1', 'team1_score', 'team2', 'team2_score']].rename(columns={'team1': 'team',
-                                                                                          'team1_score': 'team_score',
-                                                                                          'team2': 'opponent',
-                                                                                          'team2_score': 'opponent_score'})
+    team1_rows = scores[['date', 'team1', 'team1_score', 'team2', 'team2_score']].rename(columns={'date': 'date',
+                                                                                                  'team1': 'team',
+                                                                                                  'team1_score': 'team_score',
+                                                                                                  'team2': 'opponent',
+                                                                                                  'team2_score': 'opponent_score'})
     team1_rows['home_team'] = team1_rows['opponent']
-    team2_rows = scores[['team2', 'team2_score', 'team1', 'team1_score']].rename(columns={'team2': 'team',
-                                                                                          'team2_score': 'team_score',
-                                                                                          'team1': 'opponent',
-                                                                                          'team1_score': 'opponent_score'})
+    team2_rows = scores[['date', 'team2', 'team2_score', 'team1', 'team1_score']].rename(columns={'date': 'date',
+                                                                                                  'team2': 'team',
+                                                                                                  'team2_score': 'team_score',
+                                                                                                  'team1': 'opponent',
+                                                                                                  'team1_score': 'opponent_score'})
     team2_rows['home_team'] = team2_rows['team']
     return pandas.concat([team1_rows, team2_rows], ignore_index=True)
 

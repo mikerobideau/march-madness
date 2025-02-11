@@ -6,16 +6,22 @@ YEAR = 2025
 
 #ENTER GAME DETAILS HERE
 #-----------------------
-AWAY_TEAM = 'Houston'
-AWAY_TEAM_ODDS = -100
-HOME_TEAM = 'Kansas'
-HOME_TEAM_ODDS = -100
+AWAY_TEAM = 'Ole Miss'
+AWAY_TEAM_ODDS = -235
+HOME_TEAM = 'LSU'
+HOME_TEAM_ODDS = 190
 HOME_COURT_ADVANTAGE = 4
 #-----------------------
 
+
+#Picks today:
+#LSU
+
+
+
 def main():
-    score = remove_d2_d3_games(pandas.read_csv('analysis/exports/2025/scores_detail.csv'))
-    analyze('', score, HOME_TEAM, HOME_TEAM_ODDS, AWAY_TEAM, AWAY_TEAM_ODDS, HOME_TEAM, True)
+    score = remove_d2_d3_games(pandas.read_csv('exports/2025/scores_detail.csv'))
+    analyze('', score, AWAY_TEAM, AWAY_TEAM_ODDS, HOME_TEAM, HOME_TEAM_ODDS, HOME_TEAM, True)
     #validate_model(score)
     #home_court = calc_home_court_advantage(score)
 

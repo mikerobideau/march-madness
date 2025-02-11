@@ -1,0 +1,867 @@
+{
+    "timestamp": "2024-12-27T11:55:37Z",
+    "previous_timestamp": "2024-12-27T11:50:38Z",
+    "next_timestamp": "2024-12-27T12:00:38Z",
+    "data": [
+        {
+            "id": "4ae40beb2e14525520ca3fa164660902",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T17:00:00Z",
+            "home_team": "Georgetown Hoyas",
+            "away_team": "Coppin St Eagles",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Coppin St Eagles",
+                                    "price": 4000
+                                },
+                                {
+                                    "name": "Georgetown Hoyas",
+                                    "price": -50000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "71c740370b6a67fcfe2963e3ad844bd1",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T17:00:00Z",
+            "home_team": "Louisville Cardinals",
+            "away_team": "Eastern Kentucky Colonels",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Eastern Kentucky Colonels",
+                                    "price": 1400
+                                },
+                                {
+                                    "name": "Louisville Cardinals",
+                                    "price": -4000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6b0be631b0816c7d97cea70a7e911d8b",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T17:00:00Z",
+            "home_team": "Maryland Terrapins",
+            "away_team": "Maryland-Eastern Shore Hawks",
+            "bookmakers": []
+        },
+        {
+            "id": "f63d4d0585491332a9dda714df07387d",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T18:00:00Z",
+            "home_team": "Saint Joseph's Hawks",
+            "away_team": "Delaware St Hornets",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Delaware St Hornets",
+                                    "price": 1400
+                                },
+                                {
+                                    "name": "Saint Joseph's Hawks",
+                                    "price": -4000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5e08c4bd20ee30c612b1404f355a3225",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T19:00:00Z",
+            "home_team": "Georgia Tech Yellow Jackets",
+            "away_team": "Alabama A&M Bulldogs",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Alabama A&M Bulldogs",
+                                    "price": 2000
+                                },
+                                {
+                                    "name": "Georgia Tech Yellow Jackets",
+                                    "price": -7000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c819fa95745f1b48ffbe17bd07271c03",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T19:00:00Z",
+            "home_team": "Syracuse Orange",
+            "away_team": "Bucknell Bison",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bucknell Bison",
+                                    "price": 640
+                                },
+                                {
+                                    "name": "Syracuse Orange",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40b99451b5f872b84815961f6e188b3d",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T19:00:00Z",
+            "home_team": "Davidson Wildcats",
+            "away_team": "Eastern Michigan Eagles",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Davidson Wildcats",
+                                    "price": -2000
+                                },
+                                {
+                                    "name": "Eastern Michigan Eagles",
+                                    "price": 980
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "36cff3f83243b2dc908f88cb3a248b15",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T19:00:00Z",
+            "home_team": "DePaul Blue Demons",
+            "away_team": "Loyola (MD) Greyhounds",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "DePaul Blue Demons",
+                                    "price": -3000
+                                },
+                                {
+                                    "name": "Loyola (MD) Greyhounds",
+                                    "price": 1200
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "728ad88795c07dd39f9e2adc98bcf92a",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T19:00:00Z",
+            "home_team": "George Mason Patriots",
+            "away_team": "Mt. St. Mary's Mountaineers",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "George Mason Patriots",
+                                    "price": -2100
+                                },
+                                {
+                                    "name": "Mt. St. Mary's Mountaineers",
+                                    "price": 1000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a81253958c79e8e19f84c57533d856c1",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T19:00:00Z",
+            "home_team": "Georgia St Panthers",
+            "away_team": "Mercer Bears",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Georgia St Panthers",
+                                    "price": -132
+                                },
+                                {
+                                    "name": "Mercer Bears",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0f051d4db844aa4bce1eca058e54b31f",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T19:00:00Z",
+            "home_team": "Memphis Tigers",
+            "away_team": "Ole Miss Rebels",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Memphis Tigers",
+                                    "price": -111
+                                },
+                                {
+                                    "name": "Ole Miss Rebels",
+                                    "price": -108
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b80931d2fe3715bee3a4ca815012f0f3",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T19:00:00Z",
+            "home_team": "North Carolina A&T Aggies",
+            "away_team": "North Carolina Central Eagles",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Carolina A&T Aggies",
+                                    "price": -113
+                                },
+                                {
+                                    "name": "North Carolina Central Eagles",
+                                    "price": -106
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f820beca67e962fa753e9a135edb2872",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T20:00:00Z",
+            "home_team": "Colorado St Rams",
+            "away_team": "New Mexico Lobos",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Colorado St Rams",
+                                    "price": -108
+                                },
+                                {
+                                    "name": "New Mexico Lobos",
+                                    "price": -111
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9c7acc2088a180152dc459ea09b76d0a",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T21:00:00Z",
+            "home_team": "Texas A&M Aggies",
+            "away_team": "Abilene Christian Wildcats",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Abilene Christian Wildcats",
+                                    "price": 2500
+                                },
+                                {
+                                    "name": "Texas A&M Aggies",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9451e0ea77c4725954d784c87a0fe9dc",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T21:00:00Z",
+            "home_team": "Boston College Eagles",
+            "away_team": "Fairleigh Dickinson Knights",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": -1200
+                                },
+                                {
+                                    "name": "Fairleigh Dickinson Knights",
+                                    "price": 680
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fa0d0854bd4da860634e8f4096b561d5",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T21:00:00Z",
+            "home_team": "Columbia Lions",
+            "away_team": "Fairfield Stags",
+            "bookmakers": []
+        },
+        {
+            "id": "c508c03b39eca1b37c8e333415c30d53",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T21:00:00Z",
+            "home_team": "UCLA Bruins",
+            "away_team": "Gonzaga Bulldogs",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Gonzaga Bulldogs",
+                                    "price": -192
+                                },
+                                {
+                                    "name": "UCLA Bruins",
+                                    "price": 158
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "53f6a90f4ff10bcaf9da02033a3b60e6",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T21:00:00Z",
+            "home_team": "Hampton Pirates",
+            "away_team": "Howard Bison",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": -182
+                                },
+                                {
+                                    "name": "Howard Bison",
+                                    "price": 150
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "86a200b23d49acc0567d4f34dea968e8",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T21:00:00Z",
+            "home_team": "Wyoming Cowboys",
+            "away_team": "Nevada Wolf Pack",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Nevada Wolf Pack",
+                                    "price": -285
+                                },
+                                {
+                                    "name": "Wyoming Cowboys",
+                                    "price": 230
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c17bd999527d223eef3c37fc358766e4",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T22:00:00Z",
+            "home_team": "San Jos\u00e9 St Spartans",
+            "away_team": "Boise State Broncos",
+            "bookmakers": []
+        },
+        {
+            "id": "5334698bae72b01373aa189602592438",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T22:00:00Z",
+            "home_team": "McNeese Cowboys",
+            "away_team": "New Orleans Privateers",
+            "bookmakers": []
+        },
+        {
+            "id": "066467ca210d5b7cac7d1ca4030e5371",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T23:00:00Z",
+            "home_team": "St. John's Red Storm",
+            "away_team": "Delaware Blue Hens",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Delaware Blue Hens",
+                                    "price": 2500
+                                },
+                                {
+                                    "name": "St. John's Red Storm",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "87c48cd4273bd9a62464122990437fd3",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T23:00:00Z",
+            "home_team": "Richmond Spiders",
+            "away_team": "Florida Gulf Coast Eagles",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Florida Gulf Coast Eagles",
+                                    "price": 104
+                                },
+                                {
+                                    "name": "Richmond Spiders",
+                                    "price": -125
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d369b06c5d472f0247b7521da1e57bc1",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T23:00:00Z",
+            "home_team": "San Diego St Aztecs",
+            "away_team": "Utah State Aggies",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "San Diego St Aztecs",
+                                    "price": -205
+                                },
+                                {
+                                    "name": "Utah State Aggies",
+                                    "price": 172
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0b13ee6c5498d9b10516e6922a34be18",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-28T23:30:00Z",
+            "home_team": "San Diego Toreros",
+            "away_team": "Grand Canyon Antelopes",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Grand Canyon Antelopes",
+                                    "price": -2100
+                                },
+                                {
+                                    "name": "San Diego Toreros",
+                                    "price": 1000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c927648c290d992a13f97afaab1c6315",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-29T00:00:00Z",
+            "home_team": "Elon Phoenix",
+            "away_team": "Marshall Thundering Herd",
+            "bookmakers": []
+        },
+        {
+            "id": "cf94e4ad65cb874535d6fd4f5a6a3056",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-29T00:00:00Z",
+            "home_team": "Santa Clara Broncos",
+            "away_team": "Pepperdine Waves",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pepperdine Waves",
+                                    "price": 1000
+                                },
+                                {
+                                    "name": "Santa Clara Broncos",
+                                    "price": -2100
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7bbee84ad96aa9a9556969abdcc47a4b",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-29T01:00:00Z",
+            "home_team": "Cal Baptist Lancers",
+            "away_team": "Jackson St Tigers",
+            "bookmakers": []
+        },
+        {
+            "id": "361a3165e6b8723c086ed51bdf4ee299",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-29T01:00:00Z",
+            "home_team": "Saint Mary's Gaels",
+            "away_team": "Pacific Tigers",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pacific Tigers",
+                                    "price": 2200
+                                },
+                                {
+                                    "name": "Saint Mary's Gaels",
+                                    "price": -8000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "e25f8b692f771f4955ad70e92f9bb520",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-29T01:00:00Z",
+            "home_team": "Portland Pilots",
+            "away_team": "Washington St Cougars",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Portland Pilots",
+                                    "price": 680
+                                },
+                                {
+                                    "name": "Washington St Cougars",
+                                    "price": -1100
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "36503b1c87d0d66b8befff7f649b5299",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-29T03:00:00Z",
+            "home_team": "UNLV Rebels",
+            "away_team": "Fresno St Bulldogs",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Fresno St Bulldogs",
+                                    "price": 920
+                                },
+                                {
+                                    "name": "UNLV Rebels",
+                                    "price": -1800
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a4599a0b5a99aab9645e996f2e4cb75e",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-12-29T03:00:00Z",
+            "home_team": "San Francisco Dons",
+            "away_team": "Loyola Marymount Lions",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-12-27T11:53:46Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-12-27T11:53:46Z",
+                            "outcomes": [
+                                {
+                                    "name": "Loyola Marymount Lions",
+                                    "price": 460
+                                },
+                                {
+                                    "name": "San Francisco Dons",
+                                    "price": -650
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

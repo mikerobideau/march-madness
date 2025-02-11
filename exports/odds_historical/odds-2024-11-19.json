@@ -1,0 +1,4517 @@
+{
+    "timestamp": "2024-11-19T11:55:38Z",
+    "previous_timestamp": "2024-11-19T11:50:38Z",
+    "next_timestamp": "2024-11-19T12:00:38Z",
+    "data": [
+        {
+            "id": "d106358dd78eaa9b098304410e86d2e4",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-19T22:30:00Z",
+            "home_team": "Navy Midshipmen",
+            "away_team": "Quinnipiac Bobcats",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Navy Midshipmen",
+                                    "price": 105
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -126
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Navy Midshipmen",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Navy Midshipmen",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Navy Midshipmen",
+                                    "price": 100
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Navy Midshipmen",
+                                    "price": -107
+                                },
+                                {
+                                    "name": "Quinnipiac Bobcats",
+                                    "price": -118
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1e6d3004b3e989b81c1c65b73ad8fac1",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-19T23:00:00Z",
+            "home_team": "Boston College Eagles",
+            "away_team": "Loyola (MD) Greyhounds",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": -880
+                                },
+                                {
+                                    "name": "Loyola (MD) Greyhounds",
+                                    "price": 580
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": -750
+                                },
+                                {
+                                    "name": "Loyola (MD) Greyhounds",
+                                    "price": 525
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": -800
+                                },
+                                {
+                                    "name": "Loyola (MD) Greyhounds",
+                                    "price": 550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": -750
+                                },
+                                {
+                                    "name": "Loyola (MD) Greyhounds",
+                                    "price": 525
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston College Eagles",
+                                    "price": -770
+                                },
+                                {
+                                    "name": "Loyola (MD) Greyhounds",
+                                    "price": 500
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2a5a97d9c67faec97f0cabca8c344c54",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-19T23:07:00Z",
+            "home_team": "Binghamton Bearcats",
+            "away_team": "Longwood Lancers",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Binghamton Bearcats",
+                                    "price": 200
+                                },
+                                {
+                                    "name": "Longwood Lancers",
+                                    "price": -245
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Binghamton Bearcats",
+                                    "price": 205
+                                },
+                                {
+                                    "name": "Longwood Lancers",
+                                    "price": -250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Binghamton Bearcats",
+                                    "price": 210
+                                },
+                                {
+                                    "name": "Longwood Lancers",
+                                    "price": -265
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Binghamton Bearcats",
+                                    "price": 200
+                                },
+                                {
+                                    "name": "Longwood Lancers",
+                                    "price": -250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Binghamton Bearcats",
+                                    "price": 200
+                                },
+                                {
+                                    "name": "Longwood Lancers",
+                                    "price": -250
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3f1ae82752826bb3a18fa7ba3ca3ff56",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-19T23:30:00Z",
+            "home_team": "Appalachian St Mountaineers",
+            "away_team": "Queens University Royals",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Appalachian St Mountaineers",
+                                    "price": -380
+                                },
+                                {
+                                    "name": "Queens University Royals",
+                                    "price": 300
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Appalachian St Mountaineers",
+                                    "price": -355
+                                },
+                                {
+                                    "name": "Queens University Royals",
+                                    "price": 278
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Appalachian St Mountaineers",
+                                    "price": -430
+                                },
+                                {
+                                    "name": "Queens University Royals",
+                                    "price": 320
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Appalachian St Mountaineers",
+                                    "price": -360
+                                },
+                                {
+                                    "name": "Queens University Royals",
+                                    "price": 280
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "98c246b561ff51b44fd784a4d32e82f3",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Georgia Bulldogs",
+            "away_team": "Alabama A&M Bulldogs",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Alabama A&M Bulldogs",
+                                    "price": 3000
+                                },
+                                {
+                                    "name": "Georgia Bulldogs",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Alabama A&M Bulldogs",
+                                    "price": 3000
+                                },
+                                {
+                                    "name": "Georgia Bulldogs",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f7ff06eca6ac4444d463e97643cc4b51",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Louisville Cardinals",
+            "away_team": "Bellarmine Knights",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bellarmine Knights",
+                                    "price": 2400
+                                },
+                                {
+                                    "name": "Louisville Cardinals",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bellarmine Knights",
+                                    "price": 3000
+                                },
+                                {
+                                    "name": "Louisville Cardinals",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bellarmine Knights",
+                                    "price": 2750
+                                },
+                                {
+                                    "name": "Louisville Cardinals",
+                                    "price": -80000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3dc94a0187dd6dd87f2e82c5554d5a69",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Boston Univ. Terriers",
+            "away_team": "Wagner Seahawks",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston Univ. Terriers",
+                                    "price": -245
+                                },
+                                {
+                                    "name": "Wagner Seahawks",
+                                    "price": 200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston Univ. Terriers",
+                                    "price": -250
+                                },
+                                {
+                                    "name": "Wagner Seahawks",
+                                    "price": 205
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston Univ. Terriers",
+                                    "price": -260
+                                },
+                                {
+                                    "name": "Wagner Seahawks",
+                                    "price": 205
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston Univ. Terriers",
+                                    "price": -250
+                                },
+                                {
+                                    "name": "Wagner Seahawks",
+                                    "price": 200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Boston Univ. Terriers",
+                                    "price": -215
+                                },
+                                {
+                                    "name": "Wagner Seahawks",
+                                    "price": 170
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0d33aeb381e85d85ade1b225038b05d8",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Bowling Green Falcons",
+            "away_team": "Niagara Purple Eagles",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:53:45Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:45Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": -530
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": 390
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": -600
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": 430
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": -600
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": 440
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": -650
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": 475
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bowling Green Falcons",
+                                    "price": -530
+                                },
+                                {
+                                    "name": "Niagara Purple Eagles",
+                                    "price": 380
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "64333c7485ae1b02540510937c938314",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Vermont Catamounts",
+            "away_team": "Buffalo Bulls",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": 675
+                                },
+                                {
+                                    "name": "Vermont Catamounts",
+                                    "price": -1050
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": 650
+                                },
+                                {
+                                    "name": "Vermont Catamounts",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": 820
+                                },
+                                {
+                                    "name": "Vermont Catamounts",
+                                    "price": -1600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": 675
+                                },
+                                {
+                                    "name": "Vermont Catamounts",
+                                    "price": -1100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Buffalo Bulls",
+                                    "price": 600
+                                },
+                                {
+                                    "name": "Vermont Catamounts",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c9ce0aa643b9b57f70254d335adb3796",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Maryland Terrapins",
+            "away_team": "Canisius Golden Griffins",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Canisius Golden Griffins",
+                                    "price": 3500
+                                },
+                                {
+                                    "name": "Maryland Terrapins",
+                                    "price": -20000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c03ecc484ff26880a842d29cec4d1c81",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Charlotte 49ers",
+            "away_team": "Gardner-Webb Bulldogs",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Charlotte 49ers",
+                                    "price": -298
+                                },
+                                {
+                                    "name": "Gardner-Webb Bulldogs",
+                                    "price": 240
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Charlotte 49ers",
+                                    "price": -320
+                                },
+                                {
+                                    "name": "Gardner-Webb Bulldogs",
+                                    "price": 250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Charlotte 49ers",
+                                    "price": -325
+                                },
+                                {
+                                    "name": "Gardner-Webb Bulldogs",
+                                    "price": 250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Charlotte 49ers",
+                                    "price": -300
+                                },
+                                {
+                                    "name": "Gardner-Webb Bulldogs",
+                                    "price": 230
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Charlotte 49ers",
+                                    "price": -345
+                                },
+                                {
+                                    "name": "Gardner-Webb Bulldogs",
+                                    "price": 265
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2e39c0d307cb85c827a0095b9ef23dc9",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Chicago St Cougars",
+            "away_team": "Eastern Kentucky Colonels",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago St Cougars",
+                                    "price": 275
+                                },
+                                {
+                                    "name": "Eastern Kentucky Colonels",
+                                    "price": -345
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago St Cougars",
+                                    "price": 270
+                                },
+                                {
+                                    "name": "Eastern Kentucky Colonels",
+                                    "price": -345
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago St Cougars",
+                                    "price": 290
+                                },
+                                {
+                                    "name": "Eastern Kentucky Colonels",
+                                    "price": -385
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago St Cougars",
+                                    "price": 240
+                                },
+                                {
+                                    "name": "Eastern Kentucky Colonels",
+                                    "price": -300
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago St Cougars",
+                                    "price": 260
+                                },
+                                {
+                                    "name": "Eastern Kentucky Colonels",
+                                    "price": -335
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ea9a4d38154521d0b3a7e9a4a98949f6",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Northern Kentucky Norse",
+            "away_team": "Cincinnati Bearcats",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cincinnati Bearcats",
+                                    "price": -1400
+                                },
+                                {
+                                    "name": "Northern Kentucky Norse",
+                                    "price": 800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cincinnati Bearcats",
+                                    "price": -900
+                                },
+                                {
+                                    "name": "Northern Kentucky Norse",
+                                    "price": 600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cincinnati Bearcats",
+                                    "price": -900
+                                },
+                                {
+                                    "name": "Northern Kentucky Norse",
+                                    "price": 600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cincinnati Bearcats",
+                                    "price": -1100
+                                },
+                                {
+                                    "name": "Northern Kentucky Norse",
+                                    "price": 675
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cincinnati Bearcats",
+                                    "price": -1000
+                                },
+                                {
+                                    "name": "Northern Kentucky Norse",
+                                    "price": 600
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "900cee5b58c47849f972594fdd4dc823",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Minnesota Golden Gophers",
+            "away_team": "Cleveland St Vikings",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cleveland St Vikings",
+                                    "price": 650
+                                },
+                                {
+                                    "name": "Minnesota Golden Gophers",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cleveland St Vikings",
+                                    "price": 650
+                                },
+                                {
+                                    "name": "Minnesota Golden Gophers",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cleveland St Vikings",
+                                    "price": 920
+                                },
+                                {
+                                    "name": "Minnesota Golden Gophers",
+                                    "price": -2000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cleveland St Vikings",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "Minnesota Golden Gophers",
+                                    "price": -1100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Cleveland St Vikings",
+                                    "price": 650
+                                },
+                                {
+                                    "name": "Minnesota Golden Gophers",
+                                    "price": -1115
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "376bce96e92d0a54f7c4bc2abb0077ef",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Marist Red Foxes",
+            "away_team": "Dartmouth Big Green",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dartmouth Big Green",
+                                    "price": 320
+                                },
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": -410
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dartmouth Big Green",
+                                    "price": 320
+                                },
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": -420
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dartmouth Big Green",
+                                    "price": 340
+                                },
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": -470
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dartmouth Big Green",
+                                    "price": 310
+                                },
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": -400
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Dartmouth Big Green",
+                                    "price": 310
+                                },
+                                {
+                                    "name": "Marist Red Foxes",
+                                    "price": -400
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c648498fbe799b2aaef00909babd35a2",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Providence Friars",
+            "away_team": "Delaware St Hornets",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Delaware St Hornets",
+                                    "price": 2000
+                                },
+                                {
+                                    "name": "Providence Friars",
+                                    "price": -7000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Delaware St Hornets",
+                                    "price": 1800
+                                },
+                                {
+                                    "name": "Providence Friars",
+                                    "price": -5000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Delaware St Hornets",
+                                    "price": 1550
+                                },
+                                {
+                                    "name": "Providence Friars",
+                                    "price": -4500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Delaware St Hornets",
+                                    "price": 1750
+                                },
+                                {
+                                    "name": "Providence Friars",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Delaware St Hornets",
+                                    "price": 1500
+                                },
+                                {
+                                    "name": "Providence Friars",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "aa867eb0719ffdbec0038c0684b1c241",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Fairfield Stags",
+            "away_team": "Drexel Dragons",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -115
+                                },
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": -105
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -105
+                                },
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": -115
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -114
+                                },
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": -106
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -110
+                                },
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": -110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Drexel Dragons",
+                                    "price": -104
+                                },
+                                {
+                                    "name": "Fairfield Stags",
+                                    "price": -118
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "05a485d5fa35699fa7b5f08f6ade328e",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Duquesne Dukes",
+            "away_team": "Milwaukee Panthers",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Milwaukee Panthers",
+                                    "price": 185
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Milwaukee Panthers",
+                                    "price": 185
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -250
+                                },
+                                {
+                                    "name": "Milwaukee Panthers",
+                                    "price": 198
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Milwaukee Panthers",
+                                    "price": 180
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Duquesne Dukes",
+                                    "price": -225
+                                },
+                                {
+                                    "name": "Milwaukee Panthers",
+                                    "price": 180
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9732fce58eabfc36dafc1c0c8b3881d9",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Ohio State Buckeyes",
+            "away_team": "Evansville Purple Aces",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Evansville Purple Aces",
+                                    "price": 3500
+                                },
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": -20000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Evansville Purple Aces",
+                                    "price": 2750
+                                },
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": -80000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Evansville Purple Aces",
+                                    "price": 3500
+                                },
+                                {
+                                    "name": "Ohio State Buckeyes",
+                                    "price": -20000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9a7b312ef9b0d641483044e8138cd96e",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Florida Gators",
+            "away_team": "Florida A&M Rattlers",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Florida A&M Rattlers",
+                                    "price": 3500
+                                },
+                                {
+                                    "name": "Florida Gators",
+                                    "price": -20000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fcfb98fbd903a97f1916a24159d70aea",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Florida St Seminoles",
+            "away_team": "Hofstra Pride",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -320
+                                },
+                                {
+                                    "name": "Hofstra Pride",
+                                    "price": 255
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -320
+                                },
+                                {
+                                    "name": "Hofstra Pride",
+                                    "price": 250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -310
+                                },
+                                {
+                                    "name": "Hofstra Pride",
+                                    "price": 250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -350
+                                },
+                                {
+                                    "name": "Hofstra Pride",
+                                    "price": 275
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Florida St Seminoles",
+                                    "price": -335
+                                },
+                                {
+                                    "name": "Hofstra Pride",
+                                    "price": 250
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "37c53c4bad16b4cfc307a8d28f85f246",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Green Bay Phoenix",
+            "away_team": "SIU-Edwardsville Cougars",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Green Bay Phoenix",
+                                    "price": -130
+                                },
+                                {
+                                    "name": "SIU-Edwardsville Cougars",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Green Bay Phoenix",
+                                    "price": -130
+                                },
+                                {
+                                    "name": "SIU-Edwardsville Cougars",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Green Bay Phoenix",
+                                    "price": -128
+                                },
+                                {
+                                    "name": "SIU-Edwardsville Cougars",
+                                    "price": 104
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Green Bay Phoenix",
+                                    "price": -135
+                                },
+                                {
+                                    "name": "SIU-Edwardsville Cougars",
+                                    "price": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Green Bay Phoenix",
+                                    "price": -129
+                                },
+                                {
+                                    "name": "SIU-Edwardsville Cougars",
+                                    "price": 107
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f1f1ae57e04b4d157a500e5a5df1b9f1",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "UMBC Retrievers",
+            "away_team": "Hampton Pirates",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 235
+                                },
+                                {
+                                    "name": "UMBC Retrievers",
+                                    "price": -290
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 240
+                                },
+                                {
+                                    "name": "UMBC Retrievers",
+                                    "price": -305
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 245
+                                },
+                                {
+                                    "name": "UMBC Retrievers",
+                                    "price": -320
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Hampton Pirates",
+                                    "price": 225
+                                },
+                                {
+                                    "name": "UMBC Retrievers",
+                                    "price": -286
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "78853248c8f759608fca448ee7b8ba73",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Kentucky Wildcats",
+            "away_team": "Lipscomb Bisons",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kentucky Wildcats",
+                                    "price": -4500
+                                },
+                                {
+                                    "name": "Lipscomb Bisons",
+                                    "price": 1600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kentucky Wildcats",
+                                    "price": -3600
+                                },
+                                {
+                                    "name": "Lipscomb Bisons",
+                                    "price": 1500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kentucky Wildcats",
+                                    "price": -4500
+                                },
+                                {
+                                    "name": "Lipscomb Bisons",
+                                    "price": 1550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kentucky Wildcats",
+                                    "price": -5000
+                                },
+                                {
+                                    "name": "Lipscomb Bisons",
+                                    "price": 1500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kentucky Wildcats",
+                                    "price": -5000
+                                },
+                                {
+                                    "name": "Lipscomb Bisons",
+                                    "price": 1300
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "691ba263700776ceafcf9d8942e3b205",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Notre Dame Fighting Irish",
+            "away_team": "North Dakota Fighting Hawks",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Dakota Fighting Hawks",
+                                    "price": 1400
+                                },
+                                {
+                                    "name": "Notre Dame Fighting Irish",
+                                    "price": -4000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Dakota Fighting Hawks",
+                                    "price": 1050
+                                },
+                                {
+                                    "name": "Notre Dame Fighting Irish",
+                                    "price": -2000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Dakota Fighting Hawks",
+                                    "price": 1100
+                                },
+                                {
+                                    "name": "Notre Dame Fighting Irish",
+                                    "price": -2100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Dakota Fighting Hawks",
+                                    "price": 1200
+                                },
+                                {
+                                    "name": "Notre Dame Fighting Irish",
+                                    "price": -3000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "North Dakota Fighting Hawks",
+                                    "price": 1100
+                                },
+                                {
+                                    "name": "Notre Dame Fighting Irish",
+                                    "price": -3335
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a325ac3de16f93e253d1cd1b109bde89",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Villanova Wildcats",
+            "away_team": "Pennsylvania Quakers",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pennsylvania Quakers",
+                                    "price": 860
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -1600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pennsylvania Quakers",
+                                    "price": 1250
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -2800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pennsylvania Quakers",
+                                    "price": 1100
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -2100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pennsylvania Quakers",
+                                    "price": 800
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -1400
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Pennsylvania Quakers",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "Villanova Wildcats",
+                                    "price": -1430
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ff6ef1195796b27b243b4a66de5c07db",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "UCF Knights",
+            "away_team": "Tennessee Tech Golden Eagles",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Tennessee Tech Golden Eagles",
+                                    "price": 3000
+                                },
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Tennessee Tech Golden Eagles",
+                                    "price": 2000
+                                },
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Tennessee Tech Golden Eagles",
+                                    "price": 2500
+                                },
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -9000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Tennessee Tech Golden Eagles",
+                                    "price": 3000
+                                },
+                                {
+                                    "name": "UCF Knights",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9bd5fb8bf7df207f17bf8ee1055a4afe",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "UConn Huskies",
+            "away_team": "Texas A&M-Commerce Lions",
+            "bookmakers": []
+        },
+        {
+            "id": "e08e9d4cb7b0033d1ba1479bccdf0c65",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "West Georgia Wolves",
+            "away_team": "Troy Trojans",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Troy Trojans",
+                                    "price": -1050
+                                },
+                                {
+                                    "name": "West Georgia Wolves",
+                                    "price": 675
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Troy Trojans",
+                                    "price": -1000
+                                },
+                                {
+                                    "name": "West Georgia Wolves",
+                                    "price": 650
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Troy Trojans",
+                                    "price": -1600
+                                },
+                                {
+                                    "name": "West Georgia Wolves",
+                                    "price": 820
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Troy Trojans",
+                                    "price": -1100
+                                },
+                                {
+                                    "name": "West Georgia Wolves",
+                                    "price": 650
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Troy Trojans",
+                                    "price": -910
+                                },
+                                {
+                                    "name": "West Georgia Wolves",
+                                    "price": 540
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3adff55a222ea461a23855195912c2c5",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:00:00Z",
+            "home_team": "Wake Forest Demon Deacons",
+            "away_team": "Western Carolina Catamounts",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -8000
+                                },
+                                {
+                                    "name": "Western Carolina Catamounts",
+                                    "price": 2200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -4500
+                                },
+                                {
+                                    "name": "Western Carolina Catamounts",
+                                    "price": 1550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -4000
+                                },
+                                {
+                                    "name": "Western Carolina Catamounts",
+                                    "price": 1600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -10000
+                                },
+                                {
+                                    "name": "Western Carolina Catamounts",
+                                    "price": 1800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Wake Forest Demon Deacons",
+                                    "price": -10000
+                                },
+                                {
+                                    "name": "Western Carolina Catamounts",
+                                    "price": 1600
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b474132bce6779bc8b0f0eec234876dd",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:30:00Z",
+            "home_team": "Belmont Bruins",
+            "away_team": "Oral Roberts Golden Eagles",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Belmont Bruins",
+                                    "price": -455
+                                },
+                                {
+                                    "name": "Oral Roberts Golden Eagles",
+                                    "price": 350
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Belmont Bruins",
+                                    "price": -455
+                                },
+                                {
+                                    "name": "Oral Roberts Golden Eagles",
+                                    "price": 345
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Belmont Bruins",
+                                    "price": -520
+                                },
+                                {
+                                    "name": "Oral Roberts Golden Eagles",
+                                    "price": 370
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Belmont Bruins",
+                                    "price": -500
+                                },
+                                {
+                                    "name": "Oral Roberts Golden Eagles",
+                                    "price": 375
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Belmont Bruins",
+                                    "price": -500
+                                },
+                                {
+                                    "name": "Oral Roberts Golden Eagles",
+                                    "price": 350
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9428f90774f91fd39bd83504b13e50dd",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T00:30:00Z",
+            "home_team": "Tulane Green Wave",
+            "away_team": "Bethune-Cookman Wildcats",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bethune-Cookman Wildcats",
+                                    "price": 550
+                                },
+                                {
+                                    "name": "Tulane Green Wave",
+                                    "price": -800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bethune-Cookman Wildcats",
+                                    "price": 550
+                                },
+                                {
+                                    "name": "Tulane Green Wave",
+                                    "price": -800
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bethune-Cookman Wildcats",
+                                    "price": 590
+                                },
+                                {
+                                    "name": "Tulane Green Wave",
+                                    "price": -950
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Bethune-Cookman Wildcats",
+                                    "price": 460
+                                },
+                                {
+                                    "name": "Tulane Green Wave",
+                                    "price": -670
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9f123f171e24b0ef624e17119bb6441a",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:00:00Z",
+            "home_team": "TCU Horned Frogs",
+            "away_team": "Alcorn St Braves",
+            "bookmakers": []
+        },
+        {
+            "id": "3a5a2d4aa1c77312a3e7a70efd901b1b",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:00:00Z",
+            "home_team": "LSU Tigers",
+            "away_team": "Charleston Southern Buccaneers",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Charleston Southern Buccaneers",
+                                    "price": 3500
+                                },
+                                {
+                                    "name": "LSU Tigers",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Charleston Southern Buccaneers",
+                                    "price": 4000
+                                },
+                                {
+                                    "name": "LSU Tigers",
+                                    "price": -50000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Charleston Southern Buccaneers",
+                                    "price": 1400
+                                },
+                                {
+                                    "name": "LSU Tigers",
+                                    "price": -10000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "79e914ada710963665af3683b355edfe",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:00:00Z",
+            "home_team": "Iowa Hawkeyes",
+            "away_team": "Rider Broncs",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -4500
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 1600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -4500
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 1550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -4000
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 1600
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -5000
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 1450
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Iowa Hawkeyes",
+                                    "price": -3335
+                                },
+                                {
+                                    "name": "Rider Broncs",
+                                    "price": 1050
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cc04c2d136f83798098224015ad9f5ee",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:00:00Z",
+            "home_team": "Kansas Jayhawks",
+            "away_team": "UNC Wilmington Seahawks",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kansas Jayhawks",
+                                    "price": -10000
+                                },
+                                {
+                                    "name": "UNC Wilmington Seahawks",
+                                    "price": 2400
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kansas Jayhawks",
+                                    "price": -15000
+                                },
+                                {
+                                    "name": "UNC Wilmington Seahawks",
+                                    "price": 2200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kansas Jayhawks",
+                                    "price": -8000
+                                },
+                                {
+                                    "name": "UNC Wilmington Seahawks",
+                                    "price": 2200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Kansas Jayhawks",
+                                    "price": -10000
+                                },
+                                {
+                                    "name": "UNC Wilmington Seahawks",
+                                    "price": 1900
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "e182efea74cb10c8be4379149da75dfa",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:00:00Z",
+            "home_team": "Kansas St Wildcats",
+            "away_team": "Miss Valley St Delta Devils",
+            "bookmakers": []
+        },
+        {
+            "id": "644f2cdc23c539058ea4ca5760ceaaae",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:00:00Z",
+            "home_team": "Michigan St Spartans",
+            "away_team": "Samford Bulldogs",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -2800
+                                },
+                                {
+                                    "name": "Samford Bulldogs",
+                                    "price": 1200
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -3500
+                                },
+                                {
+                                    "name": "Samford Bulldogs",
+                                    "price": 1350
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -2800
+                                },
+                                {
+                                    "name": "Samford Bulldogs",
+                                    "price": 1300
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -2000
+                                },
+                                {
+                                    "name": "Samford Bulldogs",
+                                    "price": 950
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Michigan St Spartans",
+                                    "price": -2500
+                                },
+                                {
+                                    "name": "Samford Bulldogs",
+                                    "price": 1000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "59294c1681222eff3af9a22feb4d53de",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:00:00Z",
+            "home_team": "Missouri St Bears",
+            "away_team": "UT-Arlington Mavericks",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -128
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 106
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -135
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 115
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -135
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 114
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -145
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 120
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Missouri St Bears",
+                                    "price": -134
+                                },
+                                {
+                                    "name": "UT-Arlington Mavericks",
+                                    "price": 105
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1569896f6d105e4cfff3842ab0574360",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:00:00Z",
+            "home_team": "Northern Iowa Panthers",
+            "away_team": "Western Illinois Leathernecks",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Northern Iowa Panthers",
+                                    "price": -1000
+                                },
+                                {
+                                    "name": "Western Illinois Leathernecks",
+                                    "price": 650
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Northern Iowa Panthers",
+                                    "price": -1000
+                                },
+                                {
+                                    "name": "Western Illinois Leathernecks",
+                                    "price": 650
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Northern Iowa Panthers",
+                                    "price": -1500
+                                },
+                                {
+                                    "name": "Western Illinois Leathernecks",
+                                    "price": 790
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Northern Iowa Panthers",
+                                    "price": -1400
+                                },
+                                {
+                                    "name": "Western Illinois Leathernecks",
+                                    "price": 825
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Northern Iowa Panthers",
+                                    "price": -1115
+                                },
+                                {
+                                    "name": "Western Illinois Leathernecks",
+                                    "price": 650
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "821867b531d4fefd772f5f97c5d8e21a",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:30:00Z",
+            "home_team": "Louisiana Ragin' Cajuns",
+            "away_team": "Rice Owls",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Louisiana Ragin' Cajuns",
+                                    "price": -192
+                                },
+                                {
+                                    "name": "Rice Owls",
+                                    "price": 160
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Louisiana Ragin' Cajuns",
+                                    "price": -190
+                                },
+                                {
+                                    "name": "Rice Owls",
+                                    "price": 158
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Louisiana Ragin' Cajuns",
+                                    "price": -215
+                                },
+                                {
+                                    "name": "Rice Owls",
+                                    "price": 172
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Louisiana Ragin' Cajuns",
+                                    "price": -200
+                                },
+                                {
+                                    "name": "Rice Owls",
+                                    "price": 165
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Louisiana Ragin' Cajuns",
+                                    "price": -195
+                                },
+                                {
+                                    "name": "Rice Owls",
+                                    "price": 155
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8992296cb370d581fc4f0785c5129d08",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T01:30:00Z",
+            "home_team": "Loyola (Chi) Ramblers",
+            "away_team": "Southern Utah Thunderbirds",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Loyola (Chi) Ramblers",
+                                    "price": -800
+                                },
+                                {
+                                    "name": "Southern Utah Thunderbirds",
+                                    "price": 550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Loyola (Chi) Ramblers",
+                                    "price": -800
+                                },
+                                {
+                                    "name": "Southern Utah Thunderbirds",
+                                    "price": 550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Loyola (Chi) Ramblers",
+                                    "price": -1200
+                                },
+                                {
+                                    "name": "Southern Utah Thunderbirds",
+                                    "price": 680
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Loyola (Chi) Ramblers",
+                                    "price": -800
+                                },
+                                {
+                                    "name": "Southern Utah Thunderbirds",
+                                    "price": 550
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Loyola (Chi) Ramblers",
+                                    "price": -835
+                                },
+                                {
+                                    "name": "Southern Utah Thunderbirds",
+                                    "price": 540
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7d1c1dca401f1bde639ab23eda8ab242",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T02:00:00Z",
+            "home_team": "DePaul Blue Demons",
+            "away_team": "Eastern Illinois Panthers",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "DePaul Blue Demons",
+                                    "price": -1600
+                                },
+                                {
+                                    "name": "Eastern Illinois Panthers",
+                                    "price": 900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "DePaul Blue Demons",
+                                    "price": -1600
+                                },
+                                {
+                                    "name": "Eastern Illinois Panthers",
+                                    "price": 900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "DePaul Blue Demons",
+                                    "price": -2200
+                                },
+                                {
+                                    "name": "Eastern Illinois Panthers",
+                                    "price": 980
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "DePaul Blue Demons",
+                                    "price": -2500
+                                },
+                                {
+                                    "name": "Eastern Illinois Panthers",
+                                    "price": 1100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "DePaul Blue Demons",
+                                    "price": -1667
+                                },
+                                {
+                                    "name": "Eastern Illinois Panthers",
+                                    "price": 800
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "db657eccefc08115dcca15f56733eccb",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T02:00:00Z",
+            "home_team": "Marquette Golden Eagles",
+            "away_team": "Purdue Boilermakers",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": -170
+                                },
+                                {
+                                    "name": "Purdue Boilermakers",
+                                    "price": 142
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": -170
+                                },
+                                {
+                                    "name": "Purdue Boilermakers",
+                                    "price": 143
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": -192
+                                },
+                                {
+                                    "name": "Purdue Boilermakers",
+                                    "price": 158
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": -190
+                                },
+                                {
+                                    "name": "Purdue Boilermakers",
+                                    "price": 155
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Marquette Golden Eagles",
+                                    "price": -195
+                                },
+                                {
+                                    "name": "Purdue Boilermakers",
+                                    "price": 150
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "498ac1b0998369cec31aa384c6d62bad",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T02:00:00Z",
+            "home_team": "Northwestern Wildcats",
+            "away_team": "Montana St Bobcats",
+            "bookmakers": [
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Montana St Bobcats",
+                                    "price": 650
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Montana St Bobcats",
+                                    "price": 650
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": -1000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Montana St Bobcats",
+                                    "price": 790
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": -1500
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Montana St Bobcats",
+                                    "price": 600
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": -900
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Montana St Bobcats",
+                                    "price": 700
+                                },
+                                {
+                                    "name": "Northwestern Wildcats",
+                                    "price": -1250
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8b2660955a2fc0871229e497aea01df7",
+            "sport_key": "basketball_ncaab",
+            "sport_title": "NCAAB",
+            "commence_time": "2024-11-20T03:00:00Z",
+            "home_team": "Santa Clara Broncos",
+            "away_team": "UC Riverside Highlanders",
+            "bookmakers": [
+                {
+                    "key": "fanduel",
+                    "title": "FanDuel",
+                    "last_update": "2024-11-19T11:54:50Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:50Z",
+                            "outcomes": [
+                                {
+                                    "name": "Santa Clara Broncos",
+                                    "price": -315
+                                },
+                                {
+                                    "name": "UC Riverside Highlanders",
+                                    "price": 250
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "williamhill_us",
+                    "title": "Caesars",
+                    "last_update": "2024-11-19T11:53:11Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:53:11Z",
+                            "outcomes": [
+                                {
+                                    "name": "Santa Clara Broncos",
+                                    "price": -365
+                                },
+                                {
+                                    "name": "UC Riverside Highlanders",
+                                    "price": 285
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "draftkings",
+                    "title": "DraftKings",
+                    "last_update": "2024-11-19T11:54:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:54:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Santa Clara Broncos",
+                                    "price": -360
+                                },
+                                {
+                                    "name": "UC Riverside Highlanders",
+                                    "price": 285
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betmgm",
+                    "title": "BetMGM",
+                    "last_update": "2024-11-19T11:55:25Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:25Z",
+                            "outcomes": [
+                                {
+                                    "name": "Santa Clara Broncos",
+                                    "price": -350
+                                },
+                                {
+                                    "name": "UC Riverside Highlanders",
+                                    "price": 260
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "betrivers",
+                    "title": "BetRivers",
+                    "last_update": "2024-11-19T11:55:03Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2024-11-19T11:55:03Z",
+                            "outcomes": [
+                                {
+                                    "name": "Santa Clara Broncos",
+                                    "price": -335
+                                },
+                                {
+                                    "name": "UC Riverside Highlanders",
+                                    "price": 240
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

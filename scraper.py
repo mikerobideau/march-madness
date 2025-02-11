@@ -6,8 +6,6 @@ import os
 from datetime import datetime
 import time
 
-YEAR = 2025
-
 class ncaa_dot_com_scraper():
     def __init__(self, year):
         self.year = year
@@ -49,7 +47,7 @@ class ncaa_dot_com_scraper():
                 school = link.text
                 nickname = self.get_nickname(school_url)
                 if nickname:
-                    values = [YEAR, school, nickname]
+                    values = [self.year, school, nickname]
                     print('%s %s' % (school, nickname))
                     self.insert_team(values)
                 time.sleep(self.rate_limit)
@@ -82,7 +80,7 @@ class ncaa_dot_com_scraper():
 
     def scrape(self, scores=True, conferences=False, bracket=False, logos=False):
         print('Starting scraper')
-        last_scraped_date = self.get_last_date_scraped(YEAR)
+        last_scraped_date = self.get_last_date_scraped(self.year)
         if scores:
             self.scrape_scores(last_scraped_date)
         if conferences:
@@ -113,7 +111,7 @@ class ncaa_dot_com_scraper():
         for date in self.dates:
             if date <= today:
                 date_str = date.strftime('%Y-%m-%d')
-                if date > last_scraped_date:
+                if last_scraped_date == None or date > last_scraped_date:
                     print("Scraping games on %s " % (date_str))
                     date_url_str = date.strftime('%Y/%m/%d')
                     self.scrape_scores_by_date(date_url_str)
@@ -191,8 +189,8 @@ class ncaa_dot_com_scraper():
                     return teams[1].select('.gamePod-game-team-logo-container')[0].select_one('img')['src']
 
     def get_dates(self):
-        start_date = pandas.Timestamp(f"{YEAR-1}-11-01")
-        end_date = pandas.Timestamp(f"{YEAR}-03-31")
+        start_date = pandas.Timestamp(f"{self.year-1}-11-01")
+        end_date = pandas.Timestamp(f"{self.year}-03-31")
         return pandas.date_range(start=start_date, end=end_date, freq="D")
 
     def connect(self):
@@ -253,6 +251,7 @@ class ncaa_dot_com_scraper():
         query = '''
             SELECT
                 year AS year,
+                date,
                 team1,
                 team1_score,
                 team2,
@@ -262,7 +261,7 @@ class ncaa_dot_com_scraper():
         ''' + str(year)
         self.cursor.execute(query)
         df = pandas.DataFrame(self.cursor)
-        df.to_csv(self.score_filepath, header=["year", "team1", "team1_score", "team2", "team2_score"])
+        df.to_csv(self.score_filepath, header=["year", "date", "team1", "team1_score", "team2", "team2_score"])
 
     def download_teams(self, year):
         query = '''
