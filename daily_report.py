@@ -8,7 +8,7 @@ import random
 import analysis
 import fuzzy
 
-YEAR = 2023
+YEAR = 2024
 BOOKS = ['fanduel', 'draftkings']
 API_KEY = 'dfffbc8b6fa79f7f9394975fc1fb50f6'
 FREE_API_KEY = 'd7eef29512374ba0023234d1b34b46f3'
@@ -23,8 +23,8 @@ SCORE_DETAIL = analysis.remove_d2_d3_games(pandas.read_csv('exports/%s/scores_de
 SCORE_SIMPLE = pandas.read_csv('exports/%s/score.csv' % (YEAR))
 WEIGHTS = pandas.read_csv('exports/%s/weights.csv' % (YEAR))
 
-TEST_START_DATE = pandas.Timestamp(f"{YEAR}-01-01")
-TEST_END_DATE = pandas.Timestamp(f"{YEAR}-02-28")
+TEST_START_DATE = pandas.Timestamp(f"{YEAR}-01-10")
+TEST_END_DATE = pandas.Timestamp(f"{YEAR}-01-31")
 TEST_DATES = pandas.date_range(start=TEST_START_DATE, end=TEST_END_DATE, freq="D")
 TEST_BOOK = 'fanduel'
 TEST_BET = 100
@@ -78,10 +78,8 @@ def validate_ev():
                     for market in bookmaker['markets']:
                         if market['key'] == 'h2h':
                             result = analyze(game['away_team'], game['home_team'], book, market['outcomes'], TRAINING_SCORES)
-
                             if result:
-                                #INVERSE MODEL BETTING
-                                pick = result['team1'] if result['team1_ev'] < result['team2_ev'] else result['team2']
+                                pick = result['team1'] if result['team1_ev'] > result['team2_ev'] else result['team2']
                                 odds = result['team1_book_odds'] if pick == result['team1'] else result['team2_book_odds']
                                 ev = result['highest_ev']
                                 if ev > 0:

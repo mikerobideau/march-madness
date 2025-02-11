@@ -5,10 +5,11 @@ import math
 import csv
 
 EXPORT_ADJUSTED_DIFFS = True
-MAX_DEPTH = 10
+MAX_DEPTH = 7
 MIN_GAMES = 10
 MAX_DIFF = 100
-HOME_COURT_ADVANTAGE = 4
+HOME_COURT_ADVANTAGE = 5
+WIN_BONUS = 0
 
 def update_ranking(year):
     score = pandas.read_csv('exports/%s/score.csv' % (year))
@@ -36,8 +37,10 @@ def get_score_detail(score, weights):
         opponent = row['opponent']
         score_detail.at[i, 'opponent_strength'] = weights.get(opponent, None)
     score_detail['diff'] = score_detail['team_score'] - score_detail['opponent_score']
-    score_detail['adjusted_diff'] = score_detail['diff'] + score_detail[
-        'opponent_strength']
+    #score_detail['adjusted_diff'] = score_detail['diff'] + score_detail[
+    #    'opponent_strength']
+    score_detail['adjusted_diff'] = score_detail.apply(lambda row: get_adjusted_diff_for_row(row, weights), axis=1)
+    #score_detail['adjusted_diff'] = score_detail.apply(lambda row: get_win_loss_grade_for_row(row, weights), axis=1)
     return score_detail
 
 def transform_to_team_opponent(scores):
@@ -77,19 +80,79 @@ def rank(weights, prev_weights, scores, depth):
 def get_weight(team, weights, scores):
     adjusted_diffs = []
     for index, score in scores.iterrows():
-        diff = get_adjusted_diff(team, weights, score)
+        diff = get_adjusted_diff_for_weight(team, weights, score)
+        #diff = get_weight_by_win_loss_grade(team, weights, score)
         adjusted_diffs.append(diff)
     return median(adjusted_diffs)
 
-def get_adjusted_diff(team, weights, score):
+def get_adjusted_diff_for_row(row, weights):
+    is_home = row.team == row.home_team
+    try:
+        opponent_strength = weights[row.opponent]
+    except Exception:
+        opponent_strength = 0
+    return get_adjusted_diff(row.team_score, row.opponent_score, opponent_strength, is_home)
+
+def get_adjusted_diff_for_weight(team, weights, score):
     #team is away, opponent is at home
     if team == score.team1:
-        opponent_strength = weights[score.team2] + HOME_COURT_ADVANTAGE
-        return cap_diff(score.team1_score - score.team2_score) + opponent_strength
+        team_score = score.team1_score
+        opponent_score = score.team2_score
+        opponent_strength = weights[score.team2]
+        is_home = False
+    else:
+        team_score = score.team2_score
+        opponent_score = score.team1_score
+        opponent_strength = weights[score.team1]
+        is_home = True
+    return get_adjusted_diff(team_score, opponent_score, opponent_strength, is_home)
+
+def get_adjusted_diff(team_score, opponent_score, opponent_strength, is_home):
+    if is_home == False:
+        opponent_strength += HOME_COURT_ADVANTAGE
+    win_bonus = WIN_BONUS if team_score > opponent_score else 0
+    grade = team_score - opponent_score + opponent_strength + win_bonus
+    return grade
+
+def get_win_loss_grade_for_row(row, weights):
+    return get_win_loss_grade(row['team1_score'], row['team2_score'], row['team2'], weights)
+
+def get_weight_by_win_loss_grade(team, weights, score):
+    #team is away, opponent is home
+    if team == score.team1:
+        team_score = score.team1_score
+        opponent_score = score.team2_score
+        opponent = score.team2
     #team is home, opponent is away
     else:
-        opponent_strength = weights[score.team1]
-        return cap_diff(score.team2_score - score.team1_score) + opponent_strength
+        team_score = score.team2_score
+        opponent_score = score.team1_score
+        opponent = score.team1
+    return get_win_loss_grade(team_score, opponent_score, opponent, weights)
+
+def get_win_loss_grade(team_score, opponent_score, opponent, weights):
+    is_win = True if team_score > opponent_score else False
+    try:
+        opponent_strength = weights[opponent]
+    except Exception:
+        print('Can not find strength for opponent %s' % (opponent))
+        opponent_strength = 0
+
+    #wins
+    if is_win and opponent_strength > 1:
+        return 3
+    elif is_win and opponent_strength > 0:
+        return 2
+    elif is_win and opponent_strength <= 0:
+        return 1
+
+    #losses
+    if is_win == False and opponent_strength > 1:
+        return -1
+    elif is_win == False and opponent_strength > 0:
+        return -2
+    elif is_win == False and opponent_strength <= 0:
+        return -3
 
 def get_ranking(weights):
     return sorted(weights.items(), key=lambda x: x[1], reverse=True)
