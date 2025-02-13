@@ -20,7 +20,7 @@ HOME_COURT_ADVANTAGE = 5
 
 
 def main():
-    score = remove_d2_d3_games(pandas.read_csv('exports/2025/scores_detail.csv'))
+    score = remove_d2_d3_games(pandas.read_csv('exports/%s/scores_detail.csv') % (YEAR))
     analyze('', score, AWAY_TEAM, AWAY_TEAM_ODDS, HOME_TEAM, HOME_TEAM_ODDS, HOME_TEAM, True)
     #validate_model(score)
     #home_court = calc_home_court_advantage(score)
