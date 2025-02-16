@@ -9,7 +9,7 @@ import analysis
 import fuzzy
 import kenpom
 
-YEAR = 2024
+YEAR = 2025
 BOOKS = ['fanduel', 'draftkings']
 API_KEY = 'dfffbc8b6fa79f7f9394975fc1fb50f6'
 FREE_API_KEY = 'd7eef29512374ba0023234d1b34b46f3'
@@ -24,17 +24,17 @@ SCORE_DETAIL = analysis.remove_d2_d3_games(pandas.read_csv('exports/%s/scores_de
 SCORE_SIMPLE = pandas.read_csv('exports/%s/score.csv' % (YEAR))
 WEIGHTS = pandas.read_csv('exports/%s/weights.csv' % (YEAR))
 
-TEST_START_DATE = pandas.Timestamp(f"{YEAR}-02-01")
-TEST_END_DATE = pandas.Timestamp(f"{YEAR}-02-28")
+TEST_START_DATE = pandas.Timestamp(f"{YEAR}-11-01")
+TEST_END_DATE = pandas.Timestamp(f"{YEAR}-11-30")
 TEST_DATES = pandas.date_range(start=TEST_START_DATE, end=TEST_END_DATE, freq="D")
 TEST_BOOK = 'fanduel'
 TEST_BET = 100
 TRAINING_SCORES = analysis.remove_d2_d3_games(pandas.read_csv('exports/%s/scores_detail_training.csv' % (YEAR)))
 
 def run():
-    fetch()
-    report()
-    display_report()
+    fetch_historical()
+    #report()
+    #display_report()
 
 def fetch():
     print('Fetching odds...')
@@ -81,24 +81,16 @@ def validate_ev():
                         if market['key'] == 'h2h':
                             result = analyze(game['away_team'], game['home_team'], book, market['outcomes'], TRAINING_SCORES)
                             if result:
-                                ev = result['highest_ev']
-                                favorite = result['team1'] if result['team1_book_odds'] < result['team2_book_odds'] else result['team2']
-                                favorite_odds = result['team1_book_odds'] if result['team1_book_odds'] < result['team2_book_odds'] else result['team2_book_odds']
-                                underdog = result['team2'] if result['team1_book_odds'] < result['team2_book_odds'] else result['team1']
-                                underdog_odds = result['team2_book_odds'] if result['team1_book_odds'] < result['team2_book_odds'] else result['team1_book_odds']
-                                #pick = result['team1'] if result['team1_ev'] > result['team2_ev'] else result['team2']
-                                #odds = result['team1_book_odds'] if pick == result['team1'] else result['team2_book_odds']
-                                pick = underdog
-                                odds = underdog_odds
-                                if kenpom.is_slow_tempo(favorite) and underdog == result['team2']:
+                                pick = kenpom.predict_winner(result['team1'], result['team2'])
+                                odds = result['team1_book_odds'] if pick == result['team1'] else result[
+                                    'team2_book_odds']
+                                if pick and odds > 0 and odds < 300:
+                                    print('%s @ %s, pick = %s, odds = %s' % (result['team1'], result['team2'], pick, odds))
                                     actual_game = find_game(game['away_team'], game['home_team'], date)
                                     if actual_game != None:
                                         money_bet += TEST_BET
                                         random_pick = random.choice([result['team1'], result['team2']])
                                         random_pick_odds = result['team1_book_odds'] if random_pick == result['team1'] else result['team2_book_odds']
-                                        opponent = result['team2'] if pick == result['team1'] else result['team1']
-                                        #print('Taking %s against %s at %s, ev = %s' % (pick, opponent, odds, ev))
-                                        #print('Actual game is %s vs %s (%s)' % (actual_game['team1'], actual_game['team2'], actual_game['date']))
                                         actual_winner = actual_game['team1'] if actual_game['team1_score'] > actual_game['team2_score'] else actual_game['team2']
                                         is_correct = pick == actual_winner
                                         is_random_correct = random_pick == actual_winner
