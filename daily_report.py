@@ -4,6 +4,7 @@ import json
 import os
 from datetime import datetime
 import random
+import statistics
 
 import analysis
 import fuzzy
@@ -24,8 +25,8 @@ SCORE_DETAIL = analysis.remove_d2_d3_games(pandas.read_csv('exports/%s/scores_de
 SCORE_SIMPLE = pandas.read_csv('exports/%s/score.csv' % (YEAR))
 WEIGHTS = pandas.read_csv('exports/%s/weights.csv' % (YEAR))
 
-TEST_START_DATE = pandas.Timestamp(f"{YEAR}-11-01")
-TEST_END_DATE = pandas.Timestamp(f"{YEAR}-11-30")
+TEST_START_DATE = pandas.Timestamp(f"{YEAR-1}-11-01")
+TEST_END_DATE = pandas.Timestamp(f"{YEAR}-02-10")
 TEST_DATES = pandas.date_range(start=TEST_START_DATE, end=TEST_END_DATE, freq="D")
 TEST_BOOK = 'fanduel'
 TEST_BET = 100
@@ -85,6 +86,7 @@ def validate_ev():
                                 odds = result['team1_book_odds'] if pick == result['team1'] else result[
                                     'team2_book_odds']
                                 if pick and odds > 0 and odds < 300:
+                                    print('------------------------------------------------------------')
                                     print('%s @ %s, pick = %s, odds = %s' % (result['team1'], result['team2'], pick, odds))
                                     actual_game = find_game(game['away_team'], game['home_team'], date)
                                     if actual_game != None:
@@ -98,11 +100,11 @@ def validate_ev():
                                             payout = calculate_payout(TEST_BET, odds)
                                             money_won += payout
                                             odds_won.append(odds)
-                                            #print('won')
+                                            print('WIN')
                                             #print('Bet %s at %s and paid out %s' % (TEST_BET, odds, payout))
                                         else:
                                             odds_lost.append(odds)
-                                            #print('lost')
+                                            print('LOSS')
                                         pct_gain = (money_won - money_bet) / money_bet * 100
                                         print('Pct gain: %s' % (pct_gain))
 
@@ -113,12 +115,26 @@ def validate_ev():
                                         #print('Skipping %s vs %s', result['team1'], result['team2'])
 
     #TODO: Check if there is a pattern in which odds tend to win and which tend to lose
-
+    bets_correct = len(odds_won)
+    bets_incorrect = len(odds_lost)
+    bets_placed = bets_correct + bets_incorrect
+    pct_correct = bets_correct / bets_placed * 100
+    avg_winning_odds = statistics.mean(odds_won)
+    avg_losing_odds = statistics.mean(odds_lost)
+    print('======================================================')
+    print('RESULTS')
+    print('======================================================')
+    print('Placed %s bets' % (bets_placed))
+    print('Pct correct: %s' % (pct_correct))
+    print('Avg winning odds %s' % (avg_winning_odds))
+    print('Avg losing odds odds %s' % (avg_losing_odds))
     print('Bet %s and won %s' % (money_bet, money_won))
     print('Net: %s' % (money_won - money_bet))
     print('Pct gain: %s' % ((money_won - money_bet) / money_bet * 100))
     print('Random Pct gain: %s' % ((random_money_won - money_bet) / money_bet * 100))
+    print('Odds Won:')
     print(odds_won)
+    print('Odds Lost:')
     print(odds_lost)
 
 def find_game(odds_api_away_team, odds_api_home_team, date):

@@ -24,8 +24,9 @@ TEAM_DATA = pandas.read_csv('%s/four_factors.csv' % (DIR))
 HOME_COURT_ADVANTAGE = 4
 
 def run():
-    pick = predict_winner('Northern Kentucky', 'Milwaukee')
-    print(pick)
+    scrape()
+    #pick = predict_winner('Rutgers', 'Washington')
+    #print(pick)
     #model = logit()
     #p = win_prob('Vermont', 'Duke', model)
     #print(p)
@@ -43,7 +44,9 @@ def predict_winner(away_team, home_team):
     home_tempo = home_row['AdjTempo']
     spread = (home_e - away_e) * (home_tempo + away_tempo) / 200
     spread = spread + HOME_COURT_ADVANTAGE
-    return home_team if spread > 0 else away_team
+    team = home_team if spread > 0 else away_team
+    spread = spread
+    return {team, spread }
 
 def prepare_game_data():
     #game scores
@@ -208,7 +211,6 @@ def win_prob(away, home, model):
 
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))  # Converts log-odds to probability
-
 
 def load_scores():
     df = pandas.read_csv('exports/%s/scores_detail.csv' % (YEAR))
