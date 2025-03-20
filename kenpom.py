@@ -21,12 +21,12 @@ DIR = 'exports/%s/kenpom' % (YEAR)
 HISTORICAL_DIR = 'exports/odds_historical'
 ODDS_TRAINING_DIR = 'exports/%s/kenpom/odds_training.csv' % (YEAR)
 TEAM_DATA = pandas.read_csv('%s/four_factors.csv' % (DIR))
-HOME_COURT_ADVANTAGE = 4
+HOME_COURT_ADVANTAGE = 0
 
 def run():
-    scrape()
-    #pick = predict_winner('Rutgers', 'Washington')
-    #print(pick)
+    #scrape()
+    pick = predict_winner('Michigan St.', 'Iowa St.')
+    print(pick)
     #model = logit()
     #p = win_prob('Vermont', 'Duke', model)
     #print(p)
